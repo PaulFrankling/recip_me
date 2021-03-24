@@ -36,7 +36,7 @@ The **env.py** file is created to retain the environmental variables, and the **
 
     `echo web: python app.py`
 
-    It is important the **Procfile** has an uppercase 'P' and any blank line added needs to deleted as it can cause problems running the app on Heroku. It should look like this:
+    It is important the **Procfile** has an uppercase 'P' and any blank line added needs to be deleted as it can cause problems running the app on Heroku. It should look like this:
 
     ![Procfile-example](static/docs/procfile-example.png)
 
