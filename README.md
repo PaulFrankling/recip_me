@@ -52,7 +52,7 @@ The **env.py** file is created to retain the environmental variables, and the **
 
 1. Once its found the repository, click 'Connect'.
 
-1. Before clicking 'Enable Automatic Deploys', you need to go to the 'Settings' section.
+1. Before clicking 'Enable Automatic Deploys', you need to go to the 'Settings' section on Heroku.
 
 1. In the 'Settings' section you need to click 'Reveal Config Vars'. At this point, you need to input all the environmental variables from the **env.py** file to tell Heroku which variables are required.
 
