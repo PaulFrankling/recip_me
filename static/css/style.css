@@ -8,6 +8,15 @@ nav li a {
     color: #E71D36;
 }
 
+nav i {
+    color: #E71D36;
+}
+
+.sidenav li a {
+    color: #E71D36;
+    font-size: 18px;
+}
+
 .brand-logo {
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
