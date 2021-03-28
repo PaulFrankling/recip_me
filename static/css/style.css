@@ -2,8 +2,15 @@ body {
     font-family: Lato, Dancing Script, Sans-serif;
 }
 
+nav li a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #E71D36;
+}
+
 .brand-logo {
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
     margin-left: 10px;
+    color: #E71D36 !important;
 }
