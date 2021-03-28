@@ -1,0 +1,9 @@
+body {
+    font-family: Lato, Dancing Script, Sans-serif;
+}
+
+.brand-logo {
+    font-family: Dancing Script, Lato, Sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}

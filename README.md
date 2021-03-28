@@ -2,6 +2,8 @@
 
 ## Code Institute - Milestone Project 3
 
+[Click here to view my website](https://recipme-project.herokuapp.com/)
+
 ### User Experience (UX):
 
 ### Design:
