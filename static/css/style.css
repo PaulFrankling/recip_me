@@ -23,3 +23,43 @@ nav i {
     margin-left: 10px;
     color: #E71D36 !important;
 }
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.home-page {
+    margin-top: 100px;
+}
+
+.home-page h1 {
+    font-family: Dancing Script, Lato, Sans-serif;
+    font-weight: 700;
+    color: #E71D36;
+}
+
+.home-page h4 {
+    color: #033F63;
+}
+
+.home-page h4 b {
+    font-family: Dancing Script, Lato, Sans-serif;
+    font-size: 60px;
+    color: #E71D36;
+}
+
+.home-page-line {
+    margin-top: 20px;
+    border-top: 5px solid #E71D36;
+    border-radius: 0%;
+}
+
+#login-btn {
+    background-color: #033F63;
+}
+
+#register-btn {
+    background-color: #E71D36;
+    color: #FFFFFF;
+}

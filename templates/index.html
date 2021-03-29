@@ -1,6 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
 
+<div class="container">
+    <div class="row">
+        <div class="home-page">
+            <div class="col s12 m7 left-align">
+                <h1>RecipMe</h1>
+                <h4>A place to keep all those recipes that are a little bit of <b>you ...</b></h4>
+                <hr class="home-page-line">
+                <a class="waves-effect waves-light btn-large" id="login-btn">
+                    <i class="material-icons right fas fa-sign-in-alt"></i>Log In</a>
+                <a class="waves-effect waves-light btn-large" id="register-btn">
+                    <i class="material-icons right fas fa-user-plus"></i>Register</a>
+            </div>
+            <div class="col s12 m5 center-align">
+                <img src="static/images/recipe-book.png">
+            </div>
+        </div>
+    </div>
+</div>
 
 
 {% endblock %}
