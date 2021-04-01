@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
     <!-- CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
     {% block styles %}
     {% endblock %}
     <title>RecipMe</title>
@@ -21,7 +23,8 @@
     <header>
         <nav class="nav-extended white z-depth-0">
             <div class="nav-wrapper">
-                <a href="{{ url_for('index') }}" class="brand-logo">RecipMe</a>
+                <a href="{{ url_for('index') }}" class="brand-logo"><img src="{{ url_for('static', filename='images/logo.png') }}"
+                        id="nav-logo" alt="logo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('index') }}">Home</a></li>

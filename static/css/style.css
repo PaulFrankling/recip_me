@@ -17,14 +17,13 @@ nav i {
     font-size: 18px;
 }
 
-.brand-logo {
-    font-family: Dancing Script, Lato, Sans-serif;
-    font-weight: 700;
-    margin-left: 10px;
-    color: #E71D36 !important;
+#nav-logo {
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
 }
 
-img {
+#book-image {
     max-height: 100%;
     max-width: 100%;
 }
