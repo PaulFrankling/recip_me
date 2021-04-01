@@ -28,10 +28,6 @@ nav i {
     width: 80px;
 }
 
-#book-image {
-    margin-top: 50px;
-}
-
 .home-page {
     margin-top: 50px;
 }
@@ -43,7 +39,7 @@ nav i {
 }
 
 .home-page p {
-    font-size: 20px;
+    font-size: 25px;
     color: #033F63;
 }
 
@@ -51,14 +47,14 @@ nav i {
     background-color: #033F63;
     color: #FFFFFF;
     width: 175px;
-    margin: 5px 0 5px;
+    margin: 10px 0 10px;
 }
 
 #register-btn {
     background-color: #E71D36;
     color: #FFFFFF;
     width: 175px;
-    margin: 5px 0 5px;
+    margin: 10px 0 10px;
 }
 
 #bg-image {
