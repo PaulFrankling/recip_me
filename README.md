@@ -8,6 +8,16 @@
 
 ### Design:
 
+#### Colour Scheme
+
+![Colour-scheme](static/docs/colour-scheme.png)
+
+The colour scheme used for this project was generated on [Coolor](https://coolors.co/ffffff-e71d36-033f63).
+
+* White `#FFFFFF`
+* Rose Madder `#E71D36`
+* Indigo Dye `#033F63`
+
 ### Wireframes:
 
 ### Technology used:
