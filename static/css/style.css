@@ -2,8 +2,13 @@ body {
     font-family: Lato, Dancing Script, Sans-serif;
 }
 
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
 nav li a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #E71D36;
 }
@@ -24,27 +29,29 @@ nav i {
 }
 
 #book-image {
-    max-height: 100%;
-    max-width: 100%;
+    margin-top: 50px;
 }
 
 .home-page {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .home-page h1 {
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
     color: #E71D36;
+    text-align: left;
 }
 
-.home-page h4 {
+.home-page h5 {
+    font-size: 20px;
     color: #033F63;
+    text-align: left;
 }
 
-.home-page h4 b {
+.home-page h5 b {
     font-family: Dancing Script, Lato, Sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     color: #E71D36;
 }
 
@@ -56,9 +63,14 @@ nav i {
 
 #login-btn {
     background-color: #033F63;
+    color: #FFFFFF;
+    width: 175px;
+    margin: 5px 0 5px;
 }
 
 #register-btn {
     background-color: #E71D36;
     color: #FFFFFF;
+    width: 175px;
+    margin: 5px 0 5px;
 }
