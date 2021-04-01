@@ -40,25 +40,11 @@ nav i {
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
     color: #E71D36;
-    text-align: left;
 }
 
-.home-page h5 {
+.home-page p {
     font-size: 20px;
     color: #033F63;
-    text-align: left;
-}
-
-.home-page h5 b {
-    font-family: Dancing Script, Lato, Sans-serif;
-    font-size: 40px;
-    color: #E71D36;
-}
-
-.home-page-line {
-    margin-top: 20px;
-    border-top: 5px solid #E71D36;
-    border-radius: 0%;
 }
 
 #login-btn {
@@ -73,4 +59,14 @@ nav i {
     color: #FFFFFF;
     width: 175px;
     margin: 5px 0 5px;
+}
+
+#bg-image {
+    background-image: url(../images/strawberries.jpg);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    width: 100%;
+    position: relative;
 }
