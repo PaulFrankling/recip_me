@@ -23,8 +23,8 @@
     <header>
         <nav class="nav-extended transparent z-depth-0">
             <div class="nav-wrapper">
-                <a href="{{ url_for('index') }}" class="brand-logo"><img src="{{ url_for('static', filename='images/logo.png') }}"
-                        id="nav-logo" alt="logo"></a>
+                <a href="{{ url_for('index') }}" class="brand-logo"><img
+                        src="{{ url_for('static', filename='images/logo.png') }}" id="nav-logo" alt="logo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('index') }}">Home</a></li>
@@ -35,7 +35,6 @@
                 </ul>
             </div>
         </nav>
-    
         <ul class="sidenav" id="mobile-demo">
             <li><a href="{{ url_for('index') }}">Home</a></li>
             <li><a href="#">Recipes</a></li>
@@ -49,19 +48,17 @@
     {% endblock %}
 
     <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col s12 m4 center-align">
-                    <div class="social-media">
-                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x icon-bg"></i></a>
-                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x icon-bg"></i></a>
-                        <a href="https://www.pinterest.co.uk" target="_blank"><i class="fab fa-pinterest-p fa-2x icon-bg"></i></a>
-                    </div>
+        <div class="row">
+            <div class="col s12 m4 center-align">
+                <div class="social-media">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x icon-bg"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x icon-bg"></i></a>
+                    <a href="https://www.pinterest.co.uk" target="_blank"><i class="fab fa-pinterest-p fa-2x icon-bg"></i></a>
                 </div>
-                <div class="col s12 m4 offset-m4 center-align">
-                    <div class="copyright-info">
-                        <h5>Paul Frankling 2021&#169;</h5>
-                    </div>
+            </div>
+            <div class="col s12 m4 offset-m4 center-align">
+                <div class="copyright-info">
+                    <h5>Paul Frankling 2021&#169;</h5>
                 </div>
             </div>
         </div>
