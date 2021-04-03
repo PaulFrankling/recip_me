@@ -1,17 +1,10 @@
 body {
     font-family: Lato, Dancing Script, Sans-serif;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
 }
 
 html, body {
     height: 100%;
     scroll-behavior: smooth;
-}
-
-main {
-    flex: 1 0 auto;
 }
 
 nav li a {
@@ -77,16 +70,4 @@ nav i {
     background-blend-mode: lighten;
     width: 100%;
     position: relative;
-}
-
-.social-media i {
-    color: #FFFFFF;
-}
-
-.icon-bg {
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #E71D36;
 }
