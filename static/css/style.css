@@ -1,10 +1,17 @@
 body {
     font-family: Lato, Dancing Script, Sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 html, body {
     height: 100%;
     scroll-behavior: smooth;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 nav li a {
@@ -30,6 +37,10 @@ nav i {
 
 .home-page {
     margin-top: 50px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .home-page h1 {
@@ -40,6 +51,7 @@ nav i {
 
 .home-page p {
     font-size: 25px;
+    font-weight: 700;
     color: #033F63;
 }
 
@@ -67,16 +79,8 @@ nav i {
     position: relative;
 }
 
-footer {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-}
-
 .social-media i {
     color: #FFFFFF;
-    margin: 5px;
 }
 
 .icon-bg {
@@ -85,9 +89,4 @@ footer {
     height: 50px;
     border-radius: 50%;
     background-color: #E71D36;
-}
-
-.copyright-info h5 {
-    font-weight: 600;
-    color: #033F63;
 }
