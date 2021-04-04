@@ -18,8 +18,15 @@ nav i {
 }
 
 .sidenav li a {
-    color: #E71D36;
+    color: #033F63;
     font-size: 18px;
+}
+
+.sidenav-title {
+    font-family: Dancing Script, Lato, Sans-serif;
+    font-weight: 700;
+    color: #E71D36;
+    margin-left: 30px;
 }
 
 #nav-logo {
