@@ -23,8 +23,15 @@ nav i {
     color: #E71D36;
 }
 
-.sidenav li a {
+.sidenav h4 {
     color: #E71D36;
+    font-family: Dancing Script, Lato, Sans-serif;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.sidenav li a {
+    color: #033F63;
     font-size: 18px;
 }
 
