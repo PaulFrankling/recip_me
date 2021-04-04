@@ -25,7 +25,7 @@
             <div class="nav-wrapper">
                 <a href="{{ url_for('index') }}" class="brand-logo"><img
                         src="{{ url_for('static', filename='images/logo.png') }}" id="nav-logo" alt="logo"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars fa-2x"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('index') }}">Home</a></li>
                     <li><a href="#">Recipes</a></li>
@@ -46,6 +46,22 @@
 
     {% block content %}
     {% endblock %}
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align social-media">
+                    <h5>Follow Us</h5>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x icon-bg"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x icon-bg"></i></a>
+                    <a href="https://www.pinterest.co.uk" target="_blank"><i class="fab fa-pinterest-p fa-2x icon-bg"></i></a>
+                </div>
+                <div class="col s12 center-align">
+                    <h6>Paul Frankling 2021&#169;</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
