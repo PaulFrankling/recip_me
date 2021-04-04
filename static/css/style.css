@@ -37,10 +37,6 @@ nav i {
 
 .home-page {
     margin-top: 50px;
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .home-page h1 {
@@ -76,5 +72,5 @@ nav i {
     background-size: cover;
     background-blend-mode: lighten;
     width: 100%;
-    position: fixed;
+    position: relative;
 }
