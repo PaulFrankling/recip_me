@@ -64,6 +64,5 @@ nav i {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
-    width: 100%;
-    position: fixed;
+    background-attachment: fixed;
 }
