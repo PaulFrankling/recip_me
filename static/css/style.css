@@ -76,5 +76,5 @@ nav i {
     background-size: cover;
     background-blend-mode: lighten;
     width: 100%;
-    position: relative;
+    position: fixed;
 }
