@@ -11,6 +11,7 @@ html, body {
 
 main {
     flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 nav li a {
@@ -39,10 +40,6 @@ nav i {
     margin-top: 10px;
     height: 80px;
     width: 80px;
-}
-
-.home-page {
-    margin-top: 50px;
 }
 
 .home-page h1 {
@@ -96,4 +93,21 @@ nav i {
     height: 50px;
     border-radius: 50%;
     background-color: #E71D36;
+}
+
+.register-title {
+    font-family: Dancing Script, Lato, Sans-serif;
+    font-weight: 700;
+    color: #E71D36;
+}
+
+.input-field i {
+    color: #E71D36;
+}
+
+.register-form button[type="submit"] {
+    background-color: #E71D36;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 5px;
 }
