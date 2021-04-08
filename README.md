@@ -26,6 +26,10 @@ The font **Lato** has been chosen for all the content of the project. **Lato** w
 
 ### Wireframes:
 
+#### Home page wireframe
+
+![Home-page-wireframe](static/docs/wireframes/home-page-wireframe.png)
+
 ### Technology used:
 
 ### Testing:
