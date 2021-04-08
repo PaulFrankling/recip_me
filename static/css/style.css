@@ -102,7 +102,7 @@ nav i {
 }
 
 .input-field i {
-    color: #E71D36;
+    color: #033F63;
 }
 
 .register-form button[type="submit"] {
@@ -110,6 +110,14 @@ nav i {
     color: #FFFFFF;
     font-size: 18px;
     margin: 5px;
+}
+
+.input-field label {
+    color: #033F63;
+}
+
+.input-field .prefix.active {
+    color: #033F63;
 }
 
 .flash-message {
