@@ -40,7 +40,7 @@ This project was deployed by [Heroku](https://www.heroku.com/) through [GitHub](
 
 To begin with, the following files were added on the [Gitpod online IDE](https://www.gitpod.io/):
 
-![Deployment-files](static/docs/deployment-files.png)
+![Deployment-files](static/docs/deployment/deployment-files.png)
 
 The **env.py** file is created to retain the environmental variables, and the **env.py** file needs to be added to the **.gitignore** file 
 so these variables can't be pushed to GitHub.
@@ -63,7 +63,7 @@ so these variables can't be pushed to GitHub.
     It is important the **Procfile** has an uppercase 'P' and any blank line added needs to be deleted as it 
     can cause problems running the app on Heroku. It should look like this:
 
-    ![Procfile-example](static/docs/procfile-example.png)
+    ![Procfile-example](static/docs/deployment/procfile-example.png)
 
 1. After both the **Procfile** and **requirements.txt** file have been added and saved, sign in/sign up to [Heroku](https://www.heroku.com/) 
    and click on 'Create new app'.
@@ -72,7 +72,7 @@ so these variables can't be pushed to GitHub.
 
 1. You now need to connect the Heroku app with your GitHub repository by firstly clicking on 'Connect to GitHub' as shown below:
 
-    ![GitHub-connection](static/docs/github-connect.png)
+    ![GitHub-connection](static/docs/deployment/github-connect.png)
 
 1. Making sure your GitHub profile is displayed, add your repository into the box to the right of it and click 'Search'.
 
@@ -88,7 +88,7 @@ so these variables can't be pushed to GitHub.
 
 1. Once the files are pushed to GitHub, return to the 'Deploy' section on Heroku and click 'Enable Automatic Deploys' as shown below:
 
-    ![Deployment-page](static/docs/deployment-page.png)
+    ![Deployment-page](static/docs/deployment/deployment-page.png)
 
 1. Then you need to click on 'Deploy Branch' and it will take a minute to build the app.
 
