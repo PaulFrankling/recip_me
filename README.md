@@ -18,6 +18,12 @@ The colour scheme used for this project was generated on [Coolor](https://coolor
 * Rose Madder `#E71D36`
 * Indigo Dye `#033F63`
 
+#### Typography
+
+I have chosen the font **Dancing Script** for my project title; RecipMe. I have also used this font for the headings on each page.
+The font **Lato** has been chosen for all the content of the project. **Lato** was used for the content as it is much clearer than 
+**Dancing Script** for the user. The fonts were both taken from [Google Fonts](https://fonts.google.com/specimen/Dancing+Script?query=dancing#standard-styles).
+
 ### Wireframes:
 
 ### Technology used:
@@ -86,3 +92,7 @@ so these variables can't be pushed to GitHub.
    You can open the app by selecting 'View' once its deployed. 
 
 ### Credits:
+
+#### Media Used
+
+* The background image of strawberries on **all pages** is by Nietjuh from [Pixabay](https://pixabay.com/photos/strawberries-red-fruit-fruit-red-4417296/).
