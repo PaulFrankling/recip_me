@@ -42,12 +42,6 @@ nav i {
     width: 80px;
 }
 
-.home-page h1 {
-    font-family: Dancing Script, Lato, Sans-serif;
-    font-weight: 700;
-    color: #E71D36;
-}
-
 .home-page p {
     font-size: 25px;
     font-weight: 700;
@@ -99,7 +93,7 @@ nav i {
     background-color: #033F63;
 }
 
-.register-title {
+.page-title {
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
     color: #E71D36;
