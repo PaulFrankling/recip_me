@@ -135,3 +135,9 @@ nav i {
 .log-reg-p a:hover {
     text-decoration: underline;
 }
+
+.card-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #033F63;
+}
