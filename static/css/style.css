@@ -137,7 +137,9 @@ nav i {
 }
 
 .card-title {
-    font-size: 26px;
-    font-weight: 700;
-    color: #033F63;
+    background-color: rgba(231, 29, 54, 0.4);
+    width: 100%;
+    text-align: right;
+    font-size: 16px !important;
+    font-weight: 700 !important;
 }
