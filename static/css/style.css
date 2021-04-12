@@ -143,3 +143,10 @@ nav i {
     font-size: 16px !important;
     font-weight: 700 !important;
 }
+
+img {
+    float: left;
+    width:  350px;
+    height: 250px;
+    object-fit: cover;
+}
