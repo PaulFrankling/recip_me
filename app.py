@@ -68,6 +68,12 @@ def login():
     return render_template("login.html")
 
 
+@app.route("/recipes")
+def recipes():
+    recipes = mongo.db.recipes.find()
+    return render_template("recipes.html", recipes=recipes)
+
+
 @app.route("/profile/<username>", methods=["GET","POST"])
 def profile(username):
     username = mongo.db.users.find_one(
