@@ -28,6 +28,29 @@ The font **Lato** has been chosen for all the content of the project. **Lato** w
 
 ### Technology used:
 
+#### Programming Languages
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+#### Frameworks, Libraries and Programs
+
+1. [Materialize](https://materializecss.com/) is used to form the layout of website and make it responsive. It is also used to add components to the website.
+1. [Google Fonts](https://fonts.google.com/specimen/Dancing+Script?query=dancing#standard-styles) is used to implement the font **Dancing Script** for the headings and the font **Lato** for the content.
+1. [Flaticon](https://www.flaticon.com/) was used to create and style a logo for the website.
+1. [TinyPNG](https://tinypng.com/) is used to compress the imagery belonging to repository to improve speed of the website.
+1. [Coolor](https://coolors.co/ffffff-e71d36-033f63) was used to help develop a colour scheme for the website.
+1. [Font Awesome](https://fontawesome.com/) has been used to add icons to the website.
+1. [Balsamiq](https://balsamiq.com/wireframes/desktop/) has been used to create the wireframes for the project and a Database Schema.
+1. [Hover.css](https://ianlunn.github.io/Hover/) has been added to show a colour change on hover of a social media icon in the footer.
+1. [Git](https://git-scm.com/) was used for version control. Code produced in the Gitpod terminal was committed and pushed to GitHub.
+1. [GitHub](https://github.com/) was used to store the project code pushed from Git.
+1. [Heroku](https://dashboard.heroku.com/apps) was used to deploy the project.
+
+
+
 ### Testing:
 
 ### Deployment:
