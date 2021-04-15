@@ -150,3 +150,16 @@ nav i {
     height: 250px;
     object-fit: cover;
 }
+
+#reset-btn {
+    background-color: #E71D36;
+    color: #FFFFFF;
+}
+
+#search-btn {
+    background-color: #033F63;
+}
+
+#search-btn i {
+    color: #FFFFFF;
+}

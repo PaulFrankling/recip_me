@@ -26,6 +26,10 @@ The font **Lato** has been chosen for all the content of the project. **Lato** w
 
 ### Wireframes:
 
+### Features:
+
+### Issues Overcome:
+
 ### Technology used:
 
 #### Programming Languages
@@ -48,8 +52,6 @@ The font **Lato** has been chosen for all the content of the project. **Lato** w
 1. [Git](https://git-scm.com/) was used for version control. Code produced in the Gitpod terminal was committed and pushed to GitHub.
 1. [GitHub](https://github.com/) was used to store the project code pushed from Git.
 1. [Heroku](https://dashboard.heroku.com/apps) was used to deploy the project.
-
-
 
 ### Testing:
 
