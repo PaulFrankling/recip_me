@@ -62,6 +62,20 @@ nav i {
     margin: 5px;
 }
 
+#profile-btn {
+    background-color: #033F63;
+    color: #FFFFFF;
+    width: 175px;
+    margin: 5px;
+}
+
+#recipes-btn {
+    background-color: #E71D36;
+    color: #FFFFFF;
+    width: 175px;
+    margin: 5px;
+}
+
 #bg-image {
     background-image: url(../images/strawberries.jpg);
     background-color: rgba(255, 255, 255, 0.8);

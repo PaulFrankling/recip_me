@@ -8,11 +8,19 @@
                 <div class="col s12 center-align">
                     <h1 class="page-title">RecipMe</h1>
                     <p>A place to keep all those recipes that are a little bit of you ...</p>
+                    {% if session.user %}
+                    <a class="waves-effect waves-light btn-large" href="{{ url_for('profile', username=session['user']) }}"
+                        id="profile-btn">
+                        <i class="fas fa-user right"></i>Profile</a>
+                    <a class="waves-effect waves-light btn-large" href="{{ url_for('recipes') }}" id="recipes-btn">
+                        <i class="fas fa-book right"></i>Recipes</a>
+                    {% else %}
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('login') }}" id="login-btn">
                         <i class="fas fa-sign-in-alt right"></i>Log In</a>
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('register') }}" id="register-btn">
                         <i class="fas fa-user-plus right"></i>Register</a>
-                    </div>
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
