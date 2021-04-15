@@ -93,6 +93,10 @@ so these variables can't be pushed to GitHub.
 
 ### Credits:
 
+#### Code
+
+* [Stack Overflow](https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css) was used to help with the equal sizing of the category and recipe card images.
+
 #### Media Used
 
 * The background image of strawberries on **all pages** is by Nietjuh from [Pixabay](https://pixabay.com/photos/strawberries-red-fruit-fruit-red-4417296/).
