@@ -81,6 +81,12 @@ def search():
     return render_template("recipes.html", recipes=recipes)
 
 
+@app.route("/show_recipe/<recipe_id>")
+def show_recipe(recipe_id):
+    recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+    return render_template("show_recipe.html", recipe=recipe)
+
+
 @app.route("/profile/<username>", methods=["GET","POST"])
 def profile(username):
     username = mongo.db.users.find_one(
