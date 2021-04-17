@@ -177,3 +177,24 @@ nav i {
 #search-btn i {
     color: #FFFFFF;
 }
+
+.recipe-border {
+    padding: 2px;
+    border: 5px solid #E71D36;
+} 
+
+.recipe-info {
+    color: #033F63;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.recipe-info i {
+    margin-left: 5px;
+}
+
+.recipe-sub-titles {
+    color: #033F63;
+    font-weight: 700;
+}
