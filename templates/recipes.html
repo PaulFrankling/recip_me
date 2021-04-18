@@ -23,6 +23,7 @@
         </div>
     </div>
 
+    {% if recipes %}
     <div class="container">
         <div class="row">
             {% for recipe in recipes %}
@@ -38,8 +39,9 @@
             {% endfor %}
         </div>
     </div>
-
-
+    {% else %}
+    <h3 class="center-align page-title">No Results Found</h3>
+    {% endif %}
 
 </main>
 
