@@ -65,6 +65,10 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 1. [Font Awesome](https://fontawesome.com/) has been used to add icons to the website.
 1. [Balsamiq](https://balsamiq.com/wireframes/desktop/) has been used to create the wireframes for the project and a Database Schema.
 1. [Hover.css](https://ianlunn.github.io/Hover/) has been added to show a colour change on hover of a social media icon in the footer.
+1. [jQuery](https://jquery.com/) was used to create navbar toggle functionality.
+1. [Flask](https://flask.palletsprojects.com/en/1.1.x/) micro web framework was used to build the project.
+1. [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is used for templating python into HTML.
+1. [MongoDB](https://cloud.mongodb.com/) is a non-relational database used for the project.
 1. [Git](https://git-scm.com/) was used for version control. Code produced in the Gitpod terminal was committed and pushed to GitHub.
 1. [GitHub](https://github.com/) was used to store the project code pushed from Git.
 1. [Heroku](https://dashboard.heroku.com/apps) was used to deploy the project.
