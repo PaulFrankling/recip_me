@@ -34,6 +34,12 @@ For the home page, the category images have been taken from [Pixabay](https://pi
 
 The images for each recipe have been taken from [Allrecipes](https://www.allrecipes.com/). The URL for each image has been inserted into the collections of recipes on MongoDB in the *recipe_image* field.
 
+### Development:
+
+#### Database Schema
+
+![Database Schema](static/docs/wireframes/database-schema.png)
+
 ### Wireframes:
 
 ### Features:
