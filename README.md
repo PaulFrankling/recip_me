@@ -26,9 +26,12 @@ The font **Lato** has been chosen for all the content of the project. **Lato** w
 
 #### Imagery
 
-The website logo has been created on and styled on [Flaticon](https://www.flaticon.com/) which presents the image of a cook.
+The website logo has been created on and styled on [Flaticon](https://www.flaticon.com/), which presents the welcoming image of a smiling cook.
+
 The strawberries image is taken from [Pixabay](https://pixabay.com/) and is used to suit the colour scheme of the website as well as present a healthy theme to the user.
+
 For the home page, the category images have been taken from [Pixabay](https://pixabay.com/). The URL for each image has been inserted into the collections of categories on MongoDB in the *category_image* field.
+
 The images for each recipe have been taken from [Allrecipes](https://www.allrecipes.com/). The URL for each image has been inserted into the collections of recipes on MongoDB in the *recipe_image* field.
 
 ### Wireframes:
@@ -128,6 +131,26 @@ so these variables can't be pushed to GitHub.
 #### Code
 
 * [Stack Overflow](https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css) was used to help with the equal sizing of the category and recipe card images.
+
+#### Content
+
+All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
+
+* [PBJ French Toast](https://www.allrecipes.com/recipe/239317/pbj-french-toast/)
+* [Perfect Breakfast](https://www.allrecipes.com/recipe/221304/perfect-breakfast/)
+* [Honey Nut Granola](https://www.allrecipes.com/recipe/21208/honey-nut-granola/)
+* [Easy Bruschetta](https://www.allrecipes.com/recipe/14838/easy-bruschetta/)
+* [Sweet Potato Rosti](https://www.allrecipes.com/recipe/182097/sweet-potato-rosti/)
+* [California Turkey Burger](https://www.allrecipes.com/recipe/247314/california-turkey-burger/)
+* [Italian Baked Meatballs](https://www.allrecipes.com/recipe/268249/italian-baked-meatballs/)
+* [Asparagus Carbonara](https://www.allrecipes.com/recipe/279162/asparagus-carbonara/)
+* [Zucchini and Blue Cheese Side](https://www.allrecipes.com/recipe/206304/zucchini-and-blue-cheese-side/)
+* [Sauteed Summer Squash Side Dish](https://www.allrecipes.com/recipe/274646/sauteed-summer-squash-side-dish/)
+* [Dessert Yogurt Protein Bowl](https://www.allrecipes.com/recipe/267252/dessert-yogurt-protein-bowl/)
+* [Key Lime Pie Mini Dessert](https://www.allrecipes.com/recipe/269876/key-lime-pie-mini-dessert/)
+* [Healthy Pumpkin Cranberry Muffins](https://www.allrecipes.com/recipe/232460/healthy-pumpkin-cranberry-muffins/)
+* [Strawberry Blueberry Smoothies](https://www.allrecipes.com/recipe/223140/strawberry-blueberry-smoothies/)
+* [Ultimate Fruit Smoothie](https://www.allrecipes.com/recipe/236204/ultimate-fruit-smoothie/)
 
 #### Media Used
 
