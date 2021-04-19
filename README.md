@@ -24,6 +24,13 @@ I have chosen the font **Dancing Script** for my project title; RecipMe. I have 
 The font **Lato** has been chosen for all the content of the project. **Lato** was used for the content as it is much clearer than 
 **Dancing Script** for the user. The fonts were both taken from [Google Fonts](https://fonts.google.com/specimen/Dancing+Script?query=dancing#standard-styles).
 
+#### Imagery
+
+The website logo has been created on and styled on [Flaticon](https://www.flaticon.com/) which presents the image of a cook.
+The strawberries image is taken from [Pixabay](https://pixabay.com/) and is used to suit the colour scheme of the website as well as present a healthy theme to the user.
+For the home page, the category images have been taken from [Pixabay](https://pixabay.com/). The URL for each image has been inserted into the collections of categories on MongoDB in the *category_image* field.
+The images for each recipe have been taken from [Allrecipes](https://www.allrecipes.com/). The URL for each image has been inserted into the collections of recipes on MongoDB in the *recipe_image* field.
+
 ### Wireframes:
 
 ### Features:
