@@ -44,8 +44,6 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 
 * Log in/Register page wireframe:
 
-![Login/Register page](static/docs/wireframes/login-reg.png)
-
 ### Features:
 
 ### Issues Overcome:

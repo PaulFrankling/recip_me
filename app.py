@@ -74,6 +74,14 @@ def recipes():
     return render_template("recipes.html", recipes=recipes)
 
 
+@app.route("/categories/<category_name>")
+def categories(category_name):
+    categories = mongo.db.categories.find()
+    recipes = mongo.db.recipes.find({"category_name": category_name})
+    return render_template("categories.html", categories=categories,
+                            recipes=recipes, category_name=category_name)
+
+
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
@@ -86,7 +94,8 @@ def show_recipe(recipe_id):
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     ingredients = recipe["recipe_ingredients"]
     methods = recipe["recipe_method"]
-    return render_template("show_recipe.html", recipe=recipe, methods=methods, ingredients=ingredients)
+    return render_template("show_recipe.html", recipe=recipe,
+                            methods=methods, ingredients=ingredients)
 
 
 @app.route("/profile/<username>", methods=["GET","POST"])
