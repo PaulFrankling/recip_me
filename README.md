@@ -42,9 +42,14 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 
 ### Wireframes:
 
+* Home page Wireframe:
+
+![Home page Wireframe](static/docs/wireframes/home-page.png)
+
+
 * Log in/Register page wireframe:
 
-![Log in/Register Wireframe](static/docs/wireframes/register-login.png)
+![Log in/Register page Wireframe](static/docs/wireframes/register-login.png)
 
 ### Features:
 
