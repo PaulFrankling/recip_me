@@ -117,11 +117,16 @@ nav i {
     color: #033F63;
 }
 
-.register-form button[type="submit"] {
+.account-form button[type="submit"] {
     background-color: #E71D36;
     color: #FFFFFF;
     font-size: 18px;
     margin: 5px;
+}
+
+.account-form placeholder {
+    color: #033F63;
+    font-weight: 700;
 }
 
 .input-field label {

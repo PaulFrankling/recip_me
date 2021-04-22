@@ -12,20 +12,23 @@
     </div>
 
     <div class="row">
-        <form class="col s12 m8 offset-m2 register-form" method="POST" action="{{ url_for('register') }}">
+        <form class="col s12 m8 offset-m2 account-form" method="POST" action="{{ url_for('register') }}">
             <div class="row">
                 <div class="input-field col s10 offset-s1">
                     <i class="fas fa-user-plus prefix"></i>
                     <input id="username" name="username" type="text" minlength="5" maxlength="15" pattern="^[a-zA-Z0-9]{5,15}$"
                         class="validate" required>
                     <label for="username">Username</label>
+                    <placeholder>Username can only contain numbers, uppercase and lowercase letters and must be 5-15 characters long</placeholder>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s10 offset-s1">
                     <i class="fas fa-lock prefix"></i>
-                    <input id="password" name="password" type="password" minlength="5" maxlength="15" class="validate" required>
+                    <input id="password" name="password" type="password" minlength="5" maxlength="15" pattern="^[a-zA-Z0-9]{5,15}$"
+                        class="validate" required>
                     <label for="password">Password</label>
+                    <placeholder>Password can only contain numbers, uppercase and lowercase letters, and must be 5-15 characters long</placeholder>
                 </div>
             </div>
             <div class="row">
