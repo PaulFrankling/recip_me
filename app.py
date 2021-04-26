@@ -98,6 +98,12 @@ def show_recipe(recipe_id):
                             methods=methods, ingredients=ingredients)
 
 
+@app.route("/add_recipe")
+def add_recipe():
+    categories = mongo.db.categories.find()
+    return render_template("add_recipe.html", categories=categories)
+
+
 @app.route("/profile/<username>", methods=["GET","POST"])
 def profile(username):
     username = mongo.db.users.find_one(

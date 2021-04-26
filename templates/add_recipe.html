@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+
+<main>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="center-align page-title">Add Recipe</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <form class="col s12 m8 offset-m2 account-form" method="POST" action="">
+            <div class="row">
+                <div class="input-field col s12 m6">
+                    <i class="fas fa-book prefix"></i>
+                    <input id="recipe_name" name="recipe_name" type="text" minlength="5" maxlength="50" pattern="^[a-zA-Z0-9]{5,15}$"
+                        class="validate" required>
+                    <label for="recipe_name">Recipe Name</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <i class="fas fa-utensils prefix"></i>
+                     <select id="category_name" name="category_name" class="validate" required>
+                        <option value="" disabled selected>Recipe Category</option>
+                        {% for category in categories %}
+                        <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                        {% endfor %}
+                     </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-quote-left prefix"></i>
+                    <input id="recipe_desc" name="recipe_desc" type="text" minlength="10" maxlength="200" 
+                        class="validate" required>
+                    <label for="recipe_desc">Recipe Description</label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</main>
+
+{% endblock %}
