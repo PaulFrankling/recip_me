@@ -101,7 +101,9 @@ def show_recipe(recipe_id):
 @app.route("/add_recipe")
 def add_recipe():
     categories = mongo.db.categories.find()
-    return render_template("add_recipe.html", categories=categories)
+    recipes = mongo.db.recipes.find()
+    return render_template("add_recipe.html", categories=categories,
+                            recipes=recipes)
 
 
 @app.route("/profile/<username>", methods=["GET","POST"])
