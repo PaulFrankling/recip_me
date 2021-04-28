@@ -77,11 +77,10 @@ nav i {
 }
 
 #bg-image {
-    background-image: url(../images/strawberries.jpg);
+    background: url(../images/strawberries.jpg) no-repeat center center fixed;
     background-color: rgba(255, 255, 255, 0.8);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-blend-mode: lighten;
+    background-size: cover;
 }
 
 .page-footer {
