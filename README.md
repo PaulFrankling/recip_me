@@ -56,7 +56,7 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 ### Issues Overcome:
 
 * The background image of the website would zoom in or out every time a different page was selected. [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) 
-helped to keep the background image exactly the same size. 
+helped to keep the background image exactly the same size every time the website was navigated around. 
 In order to fix the bug I added:
 
   `background: url(../images/strawberries.jpg) no-repeat center center fixed;
