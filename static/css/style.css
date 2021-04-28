@@ -224,3 +224,39 @@ nav i {
 ol, ul {
     padding-left: 10px;
 }
+
+#add-ingredient {
+    background-color: #033F63;
+}
+
+#remove-ingredient {
+    background-color: #E71D36;
+}
+
+#add-ingredient i {
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+#remove-ingredient i {
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+#add-method {
+    background-color: #033F63;
+}
+
+#remove-method {
+    background-color: #E71D36;
+}
+
+#add-method i {
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+#remove-method i {
+    color: #FFFFFF;
+    margin-left: 5px;
+}
