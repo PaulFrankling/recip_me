@@ -17,7 +17,7 @@ main {
 nav li a {
     font-size: 20px;
     font-weight: 700;
-    color: #E71D36;
+    color: #FFFFFF;
 }
 
 nav i {
@@ -46,6 +46,12 @@ nav i {
     font-size: 25px;
     font-weight: 700;
     color: #033F63;
+}
+
+.home-page em {
+    color: #E71D36;
+    font-size: 50px;
+    font-family: Dancing Script, Lato, Sans-serif;
 }
 
 #login-btn {
@@ -77,10 +83,7 @@ nav i {
 }
 
 #bg-image {
-    background: url(../images/strawberries.jpg) no-repeat top center fixed;
-    background-color: rgba(255, 255, 255, 0.8);
-    background-blend-mode: lighten;
-    background-size: cover;
+    background-color: #888DA7;
 }
 
 .page-footer {
@@ -109,7 +112,7 @@ nav i {
 .page-title {
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
-    color: #E71D36;
+    color: #FFFFFF;
 }
 
 .input-field i {
@@ -148,6 +151,10 @@ nav i {
     font-weight: 700;
     color: #033F63;
     font-size: 22px;
+}
+
+.log-reg-p a {
+    color: #FFFFFF;
 }
 
 .log-reg-p a:hover {

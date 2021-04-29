@@ -7,7 +7,7 @@
             <div class="home-page">
                 <div class="col s12 center-align">
                     <h1 class="page-title">RecipMe</h1>
-                    <p>A place to keep all those recipes that are a little bit of you ...</p>
+                    <p>A place to keep all those recipes that are a little bit of <em>you</em></p>
                     {% if session.user %}
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('profile', username=session['user']) }}"
                         id="profile-btn">
