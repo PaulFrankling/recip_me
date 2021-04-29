@@ -293,3 +293,11 @@ ol, ul {
     margin-top: 25px;
     background-color: #E71D36;
 }
+
+#no-btn {
+    background-color: #033F63;
+}
+
+#yes-btn {
+    background-color: #E71D36;
+}
