@@ -17,6 +17,7 @@ The colour scheme used for this project was generated on [Coolor](https://coolor
 * White `#FFFFFF`
 * Rose Madder `#E71D36`
 * Indigo Dye `#033F63`
+* Cool Grey `#888DA7`
 
 #### Typography
 
