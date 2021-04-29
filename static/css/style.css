@@ -131,7 +131,7 @@ nav i {
 }
 
 .input-field label {
-    color: #033F63;
+    color: #FFFFFF;
 }
 
 .input-field input[type=text]:focus + label {
@@ -287,11 +287,13 @@ ol, ul {
 #edit-btn {
     margin-top: 25px;
     background-color: #033F63;
+    width: 175px;
 }
 
 #delete-btn {
     margin-top: 25px;
     background-color: #E71D36;
+    width: 175px;
 }
 
 #no-btn {
