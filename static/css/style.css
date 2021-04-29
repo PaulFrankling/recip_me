@@ -77,7 +77,7 @@ nav i {
 }
 
 #bg-image {
-    background: url(../images/strawberries.jpg) no-repeat center center fixed;
+    background: url(../images/strawberries.jpg) no-repeat top center fixed;
     background-color: rgba(255, 255, 255, 0.8);
     background-blend-mode: lighten;
     background-size: cover;

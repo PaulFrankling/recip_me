@@ -59,7 +59,7 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 helped to keep the background image exactly the same size every time the website was navigated around. 
 In order to fix the bug I added:
 
-  `background: url(../images/strawberries.jpg) no-repeat center center fixed;
+  `background: url(../images/strawberries.jpg) no-repeat top center fixed;
    background-size: cover;`
 
 ### Technology used:
