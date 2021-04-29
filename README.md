@@ -55,13 +55,6 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 
 ### Issues Overcome:
 
-* The background image of the website would zoom in or out every time a different page was selected. [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) 
-helped to keep the background image exactly the same size every time the website was navigated around. 
-In order to fix the bug I added:
-
-  `background: url(../images/strawberries.jpg) no-repeat top center fixed;
-   background-size: cover;`
-
 ### Technology used:
 
 #### Programming Languages
@@ -157,6 +150,7 @@ so these variables can't be pushed to GitHub.
 #### Code
 
 * [Stack Overflow](https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css) was used to help with the equal sizing of the category and recipe card images.
+* [Stack Overflow](https://stackoverflow.com/questions/37127123/change-color-of-underline-input-and-label-in-materialize-css-framework/37127156) was used to help target the Materialize form fields when selected and change their colours on `focus`.
 * [Sanwebe](https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery) was used to help add an extra input field for the user to add more than one item to the ingredients or method section.
 
 #### Content

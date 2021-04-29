@@ -50,8 +50,7 @@ nav i {
 
 .home-page em {
     color: #E71D36;
-    font-size: 50px;
-    font-family: Dancing Script, Lato, Sans-serif;
+    font-size: 25px;
 }
 
 #login-btn {
@@ -87,7 +86,7 @@ nav i {
 }
 
 .page-footer {
-    background-color: rgba(231, 29, 54, 0.4);
+    background-color: rgba(231, 29, 54, 0.3);
     color: #FFFFFF;
     margin-top: 50px;
 }
@@ -133,6 +132,24 @@ nav i {
 
 .input-field label {
     color: #033F63;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #FFFFFF !important;
+}
+
+.input-field input[type=password]:focus + label {
+    color: #FFFFFF !important;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #FFFFFF !important;
+    box-shadow: 0 1px 0 0 #FFFFFF !important;
+}
+
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #FFFFFF !important;
+    box-shadow: 0 1px 0 0 #FFFFFF !important;
 }
 
 .input-field .prefix.active {
