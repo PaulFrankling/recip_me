@@ -283,3 +283,13 @@ ol, ul {
     color: #FFFFFF;
     margin-left: 5px;
 }
+
+#edit-btn {
+    margin-top: 25px;
+    background-color: #033F63;
+}
+
+#delete-btn {
+    margin-top: 25px;
+    background-color: #E71D36;
+}
