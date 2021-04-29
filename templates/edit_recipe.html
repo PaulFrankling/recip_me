@@ -71,7 +71,9 @@
             <div class="row">
                 <div class="input-field col s12 ingredient-wrapper">
                     <i class="fas fa-shopping-basket prefix"></i>
-                    <input id="recipe_ingredients" name="recipe_ingredients" type="text" class="validate" required>
+                    {% for ingredient in recipe.recipe_ingredients %}
+                    <input id="recipe_ingredients" value="{{ ingredient }}" name="recipe_ingredients" type="text" class="validate" required>
+                    {% endfor %}
                     <label for="recipe_ingredients">Recipe Ingredients</label>
                         <a class="waves-effect waves-light btn add-ingredient-button" id="add-ingredient">
                         <span>Add Item</span><i class="fas fa-plus"></i></a>
@@ -81,7 +83,9 @@
             <div class="row">
                 <div class="input-field col s12 method-wrapper">
                     <i class="fas fa-mortar-pestle prefix"></i>
-                    <input id="recipe_method" name="recipe_method" type="text" class="validate" required>
+                    {% for method in recipe.recipe_method %}
+                    <input id="recipe_method" value="{{ method }}" name="recipe_method" type="text" class="validate" required>
+                    {% endfor %}
                     <label for="recipe_method">Recipe Method</label>
                         <a class="waves-effect waves-light btn add-method-button" id="add-method">
                         <span>Add Item</span><i class="fas fa-plus"></i></a>
