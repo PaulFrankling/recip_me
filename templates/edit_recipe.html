@@ -73,6 +73,7 @@
 
             <div class="row">
                 <div class="input-field col s12 ingredient-wrapper">
+                    <i class="fas fa-shopping-basket prefix"></i>
                     {% for ingredient in recipe.recipe_ingredients %}
                     <input id="recipe_ingredients" value="{{ ingredient }}" name="recipe_ingredients" type="text" class="validate" required>
                     {% endfor %}
@@ -84,6 +85,7 @@
 
             <div class="row">
                 <div class="input-field col s12 method-wrapper">
+                    <i class="fas fa-mortar-pestle prefix"></i>
                     {% for method in recipe.recipe_method %}
                     <input id="recipe_method" value="{{ method }}" name="recipe_method" type="text" class="validate" required>
                     {% endfor %}
