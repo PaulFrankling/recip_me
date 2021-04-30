@@ -30,7 +30,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		if(m < maxMethod){
             m++;
-            $(methodsWrapper).append('<div><input type="text" name="recipe_ingredients"/><a class="waves-effect waves-light btn" id="remove-method" <span>Remove Item</span><i class="fas fa-trash"></i></a>');
+            $(methodsWrapper).append('<div><input type="text" name="recipe_method"/><a class="waves-effect waves-light btn" id="remove-method" <span>Remove Item</span><i class="fas fa-trash"></i></a>');
         }
 	});
 	
