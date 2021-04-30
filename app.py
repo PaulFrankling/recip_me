@@ -117,9 +117,7 @@ def add_recipe():
         return redirect(url_for("recipes"))
 
     categories = mongo.db.categories.find()
-    recipes = mongo.db.recipes.find()
-    return render_template("add_recipe.html", categories=categories,
-                            recipes=recipes)
+    return render_template("add_recipe.html", categories=categories)
 
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
@@ -141,8 +139,7 @@ def edit_recipe(recipe_id):
 
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     categories = mongo.db.categories.find()
-    return render_template("edit_recipe.html", categories=categories,
-                            recipe=recipe)
+    return render_template("edit_recipe.html", recipe=recipe, categories=categories)
 
 
 @app.route("/delete_recipe/<recipe_id>")
