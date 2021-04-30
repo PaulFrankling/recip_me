@@ -14,13 +14,13 @@ $(document).ready(function(){
             i++;
             $(ingredientsWrapper).append('<div><input type="text" name="recipe_ingredients"/><a class="waves-effect waves-light btn" id="remove-ingredient" <span>Remove Item</span><i class="fas fa-trash"></i></a>');
         }
-	});
-	
+    });
+        
 	$(ingredientsWrapper).on("click","#remove-ingredient", function(e){
 		e.preventDefault(); $(this).parent('div').remove(); i--;
     })
 
-
+    
     let maxMethod = 10;
 	let methodsWrapper = $(".method-wrapper");
 	let addMethod = $(".add-method-button");
