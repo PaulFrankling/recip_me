@@ -47,7 +47,7 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 
 * Home page Wireframe:
 
-![Home page Wireframe](static/docs/wireframes/home-page.png)
+![Home page Wireframe](static/docs/wireframes/home-wireframe.png)
 
 * Log in/Register page wireframe:
 
