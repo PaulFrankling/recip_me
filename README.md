@@ -43,14 +43,34 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 
 ### Wireframes:
 
+#### Logged out pages:
+
 * Home page Wireframe:
 
 ![Home page Wireframe](static/docs/wireframes/home-page.png)
 
-
 * Log in/Register page wireframe:
 
-![Log in/Register page Wireframe](static/docs/wireframes/register-login.png)
+![Log in/Register page Wireframe](static/docs/wireframes/register-login-wireframe.png)
+
+* Recipes page wireframe: 
+
+![Recipes page Wireframe](static/docs/wireframes/recipes-wireframe.png)
+
+#### Logged in pages:
+
+* Add Recipe page wireframe: 
+
+![Recipes page Wireframe](static/docs/wireframes/add-recipe-wireframe.png)
+
+* Edit Recipe page wireframe: 
+
+![Recipes page Wireframe](static/docs/wireframes/edit-recipe-wireframe.png)
+
+* Show Recipe page wireframe:
+
+![Recipes page Wireframe](static/docs/wireframes/show-recipe-wireframe.png)
+
 
 ### Features:
 
