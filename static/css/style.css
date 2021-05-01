@@ -303,3 +303,12 @@ ol, ul {
 #yes-btn {
     background-color: #E71D36;
 }
+
+.btn-floating {
+    background-color: #FFFFFF !important;
+    opacity: 0.5;
+}
+
+.btn-floating i {
+    color: #E71D36;
+}

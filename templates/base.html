@@ -81,6 +81,11 @@
                 <div class="col s12 center-align">
                     <h6>Paul Frankling 2021&#169;</h6>
                 </div>
+                <div class="fixed-action-btn">
+                    <a class="btn-floating btn-large red">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
             </div>
         </div>
     </footer>
@@ -92,6 +97,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- JS -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <!-- Back to top button JS (topButton.js) -->
+    <script src="{{ url_for('static', filename='js/topButton.js') }}"></script>
     {% block scripts %}
     {% endblock %}
 </body>
