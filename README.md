@@ -9,12 +9,37 @@ The website offers the user a chance to view various types of recipes, such as B
 As well as viewing recipes, the user can create an account and share recipes of their own. The user doesn't require
 an account to view recipes and can use the search engine on the **recipes.html** page to find a particular recipe to try out.
 
+## User Experience (UX):
 
-### User Experience (UX):
+* ### User Stories
 
-### Design:
+  * #### First Time Visitor Goals
 
-#### Colour Scheme
+    * As a First Time Visitor, I want to understand the purpose of the website and view some of the recipes.
+    * As a First Time Visitor, I want to easily navigate around the website.
+    * As a First Time Visitor, I want to be able to easily create an account and sign in to it.
+    * As a First Time Visitor, I want to be able to log out of my account once finished on the website.
+
+  * #### Returning Visitor Goals
+
+    * As a Returning Visitor, I want to be able to easily log in to my account.
+    * As a Returning Visitor, I want to see if any new recipes have been added.
+    * As a Returning Visitor, I would like to be able to find a particular recipe through the use of a search engine.
+
+  * #### Frequent Visitor Goals
+
+    * As a Frequent User, I want to be able to add and share a recipe of my own.
+    * As a Frequent User, I would like to be able to edit my own recipes.
+    * As a Frequent User, I want to be able to delete any of my recipes.
+    * As a Frequent User, I'd like to visit the social media accounts through the links in the 
+    footer to look for updates and interact with others on a public forum.
+
+
+
+
+## Design:
+
+### Colour Scheme
 
 ![Colour-scheme](static/docs/colour-scheme.png)
 
@@ -25,13 +50,13 @@ The colour scheme used for this project was generated on [Coolor](https://coolor
 * Indigo Dye `#033F63`
 * Cool Grey `#888DA7`
 
-#### Typography
+### Typography
 
 I have chosen the font **Dancing Script** for my project title; RecipMe. I have also used this font for the headings on each page.
 The font **Lato** has been chosen for all the content of the project. **Lato** was used for the content as it is much clearer than 
 **Dancing Script** for the user. The fonts were both taken from [Google Fonts](https://fonts.google.com/specimen/Dancing+Script?query=dancing#standard-styles).
 
-#### Imagery
+### Imagery
 
 The website logo has been created on and styled on [Flaticon](https://www.flaticon.com/), which presents the welcoming image of a smiling cook.
 
@@ -41,15 +66,19 @@ For the home page, the category images have been taken from [Pixabay](https://pi
 
 The images for each recipe have been taken from [Allrecipes](https://www.allrecipes.com/). The URL for each image has been inserted into the collections of recipes on MongoDB in the *recipe_image* field.
 
-### Development:
+## Development:
 
-#### Database Schema
+### Database Schema
 
 ![Database Schema](static/docs/wireframes/database-schema.png)
 
-### Wireframes:
+[MongoDB](https://cloud.mongodb.com/) was used to create a non-relational database. 
 
-#### Logged out pages:
+The database is made up of three collections; Categories, Recipes and Users. 
+
+## Wireframes:
+
+### Logged out pages:
 
 * Home page Wireframe:
 
@@ -63,7 +92,7 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 
 ![Recipes page Wireframe](static/docs/wireframes/recipes-wireframe.png)
 
-#### Logged in pages:
+### Logged in pages:
 
 * Add Recipe page wireframe: 
 
@@ -78,20 +107,20 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 ![Recipes page Wireframe](static/docs/wireframes/show-recipe-wireframe.png)
 
 
-### Features:
+## Features:
 
-### Issues Overcome:
+## Issues Overcome:
 
-### Technology used:
+## Technology used:
 
-#### Programming Languages
+### Programming Languages
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-#### Frameworks, Libraries and Programs
+### Frameworks, Libraries and Programs
 
 1. [Materialize](https://materializecss.com/) is used to form the layout of website and make it responsive. It is also used to add components to the website.
 1. [Google Fonts](https://fonts.google.com/specimen/Dancing+Script?query=dancing#standard-styles) is used to implement the font **Dancing Script** for the headings and the font **Lato** for the content.
@@ -109,9 +138,9 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 1. [GitHub](https://github.com/) was used to store the project code pushed from Git.
 1. [Heroku](https://dashboard.heroku.com/apps) was used to deploy the project.
 
-### Testing:
+## Testing:
 
-### Deployment:
+## Deployment:
 
 This project was deployed by [Heroku](https://www.heroku.com/) through [GitHub](https://www.github.com/).
 
@@ -122,7 +151,7 @@ To begin with, the following files were added on the [Gitpod online IDE](https:/
 The **env.py** file is created to retain the environmental variables, and the **env.py** file needs to be added to the **.gitignore** file 
 so these variables can't be pushed to GitHub.
 
-#### Deployment Process:
+### Deployment Process:
 
 1. After organising the **env.py**, **app.py** and **.gitignore** files, you need to add the **requirements.txt** file. 
    This file tells Heroku the dependencies required in running the project.
@@ -172,15 +201,15 @@ so these variables can't be pushed to GitHub.
 1. The app should now be deployed successfully and will update when code is pushed to GitHub. 
    You can open the app by selecting 'View' once its deployed. 
 
-### Credits:
+## Credits:
 
-#### Code
+### Code
 
 * [Stack Overflow](https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css) was used to help with the equal sizing of the category and recipe card images.
 * [Stack Overflow](https://stackoverflow.com/questions/37127123/change-color-of-underline-input-and-label-in-materialize-css-framework/37127156) was used to help target the Materialize form fields when selected and change their colours on `focus`.
 * [Sanwebe](https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery) was used to help add an extra input field for the user to add more than one item to the ingredients or method section.
 
-#### Content
+### Content
 
 All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 
@@ -200,11 +229,11 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 * [Strawberry Blueberry Smoothies](https://www.allrecipes.com/recipe/223140/strawberry-blueberry-smoothies/)
 * [Ultimate Fruit Smoothie](https://www.allrecipes.com/recipe/236204/ultimate-fruit-smoothie/)
 
-#### Media Used
+### Media Used
 
 * The background image of strawberries on **all pages** is by Nietjuh from [Pixabay](https://pixabay.com/photos/strawberries-red-fruit-fruit-red-4417296/).
 
-##### Category images
+#### Category images
 
 * The Breakfast image is by Aline Ponce from [Pixabay](https://pixabay.com/photos/eggs-fried-sunny-side-up-sandwich-1467284/).
 * The Starters image is by silviarita from [Pixabay](https://pixabay.com/photos/carrot-soup-bread-herbs-oil-soup-2192152/).
