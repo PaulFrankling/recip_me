@@ -89,6 +89,10 @@ The database is made up of three collections; Categories, Recipes and Users.
 
 ![Recipes page Wireframe](static/docs/wireframes/recipes-wireframe.png)
 
+* Category page wireframe:
+
+![Category page Wireframe](static/docs/wireframes/category-wireframe.png)
+
 ### Logged in pages:
 
 * Add Recipe page wireframe: 
