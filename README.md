@@ -4,6 +4,12 @@
 
 [Click here to view my website](https://recipme-project.herokuapp.com/)
 
+This website has been designed to the target the new, experienced and enthusiatic cooks of the world.
+The website offers the user a chance to view various types of recipes, such as Breakfast or Dessert recipes.
+As well as viewing recipes, the user can create an account and share recipes of their own. The user doesn't require
+an account to view recipes and can use the search engine on the **recipes.html** page to find a particular recipe to try out.
+
+
 ### User Experience (UX):
 
 ### Design:
