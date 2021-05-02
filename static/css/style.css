@@ -144,38 +144,45 @@ nav i {
     margin: 5px;
 }
 
-/*  */
-.webpage-form placeholder {
+/* Placeholder text for registering requirements */
+.register-placeholder {
     color: #033F63;
     font-weight: 700;
 }
 
+/* Input field label colour */
 .input-field label {
     color: #FFFFFF;
 }
 
+/* Changes colour of input field when selected for input */
 .input-field input[type=text]:focus + label {
     color: #FFFFFF !important;
 }
 
+/* Changes colour of input field when selected for input */
 .input-field input[type=password]:focus + label {
     color: #FFFFFF !important;
 }
 
+/* Changes styling of input field when selected for input */
 .input-field input[type=text]:focus {
     border-bottom: 1px solid #FFFFFF !important;
     box-shadow: 0 1px 0 0 #FFFFFF !important;
 }
 
+/* Changes styling of input field when selected for input */
 .input-field input[type=password]:focus {
     border-bottom: 1px solid #FFFFFF !important;
     box-shadow: 0 1px 0 0 #FFFFFF !important;
 }
 
+/* Icon colour when selected */
 .input-field .prefix.active {
     color: #033F63;
 }
 
+/* Flash message styling */
 .flash-message {
     font-family: Lato, Dancing Script Sans-serif;
     margin: 30px 5px -60px 5px;
@@ -184,20 +191,24 @@ nav i {
     color: #033F63;
 }
 
+/* Log In and Register page links */
 .log-reg-p {
     font-weight: 700;
     color: #033F63;
     font-size: 22px;
 }
 
+/* Log In and Register page links colour */
 .log-reg-p a {
     color: #FFFFFF;
 }
 
+/* Log In and Register page links shows an underline on hover */
 .log-reg-p a:hover {
     text-decoration: underline;
 }
 
+/* Image card title */
 .card-title {
     background-color: rgba(231, 29, 54, 0.4);
     width: 100%;
@@ -206,6 +217,7 @@ nav i {
     font-weight: 700 !important;
 }
 
+/* Image card */
 .food-image {
     float: left;
     width:  350px;
@@ -213,43 +225,51 @@ nav i {
     object-fit: cover;
 }
 
+/* Reset button on Recipes page */
 #reset-btn {
     background-color: #E71D36;
     color: #FFFFFF;
 }
 
+/* Search button on Recipes page */
 #search-btn {
     background-color: #033F63;
 }
-
+/* Search button icon */
 #search-btn i {
     color: #FFFFFF;
 }
 
+/* Recipe Description styling on show_recipe page */
 .recipe-desc { 
     font-size: 22px;
     color: #033F63;
     font-weight: 700;
 }
 
+/* Recipe Details styling on show_recipe page */
 .recipe-details {
     color: #033F63;
     font-size: 18px;
 }
 
+/* Recipe Details icons */
 .recipe-details i {
     margin: 0px 10px 0px 10px;
 }
 
+/* Recipe category, Recipe time, and Recipe Serving(s) list is horizontal */
 .recipe-details li {
     display: inline-block;
 }
 
+/* Recipe image border on show_recipe page */
 .recipe-border {
     padding: 2px;
     border: 5px solid #E71D36;
 }
 
+/* Recipe ingredients on show_recipe page */
 .ingredient-list li {
     margin-top: 10px;
     font-size: 18px;
@@ -257,6 +277,7 @@ nav i {
     color: #033F63;
 }
 
+/* Recipe method on show_recipe page */
 .method-list li {
     margin-top: 20px;
     font-size: 18px;
@@ -264,71 +285,86 @@ nav i {
     color: #033F63;
 }
 
+/* Padding for ingredients and method lists on show_recipe page */
 ol, ul {
     padding-left: 10px;
 }
 
+/* Add ingredient button on add_recipe and edit_recipe forms */
 #add-ingredient {
     background-color: #033F63;
 }
 
+/* Remove ingredient button on add_recipe and edit_recipe forms */
 #remove-ingredient {
     background-color: #E71D36;
 }
 
+/* Add ingredient button icon */
 #add-ingredient i {
     color: #FFFFFF;
     margin-left: 5px;
 }
 
+/* Remove ingredient button icon */
 #remove-ingredient i {
     color: #FFFFFF;
     margin-left: 5px;
 }
 
+/* Add method button on add_recipe and edit_recipe forms */
 #add-method {
     background-color: #033F63;
 }
 
+/* Remove method button on add_recipe and edit_recipe forms */
 #remove-method {
     background-color: #E71D36;
 }
 
+/* Add Method button icon */
 #add-method i {
     color: #FFFFFF;
     margin-left: 5px;
 }
 
+/* Remove Method button icon */
 #remove-method i {
     color: #FFFFFF;
     margin-left: 5px;
 }
 
+/* Edit button on show_recipe page */
 #edit-btn {
     margin-top: 25px;
     background-color: #033F63;
     width: 175px;
 }
 
+/* Delete button on show_recipe page */
 #delete-btn {
     margin-top: 25px;
     background-color: #E71D36;
     width: 175px;
 }
 
+/* No button on modal for deleting recipe */
 #no-btn {
     background-color: #033F63;
 }
 
+/* Yes button on modal for deleting recipe */
 #yes-btn {
     background-color: #E71D36;
 }
 
+/* Back to top button */
 .btn-floating {
     background-color: #FFFFFF !important;
     opacity: 0.75;
 }
 
+/* Back to top button icon */
 .btn-floating i {
     color: #E71D36;
 }
