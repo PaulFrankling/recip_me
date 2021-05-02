@@ -2,19 +2,25 @@
 {% block content %}
 
 <main>
+
+    <!-- Home page -->
     <div class="container">
         <div class="row">
             <div class="home-page">
                 <div class="col s12 center-align">
+                    <!-- Website Name -->
                     <h1 class="page-title">RecipMe</h1>
+                    <!-- Website Tagline -->
                     <p>A place to keep all those recipes that are a little bit of <em>you</em></p>
                     {% if session.user %}
+                    <!-- If user is logged in, it shows buttons to access Profile and Recipes pages -->
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('profile', username=session['user']) }}"
                         id="profile-btn">
                         <i class="fas fa-user right"></i>Profile</a>
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('recipes') }}" id="recipes-btn">
                         <i class="fas fa-book right"></i>Recipes</a>
                     {% else %}
+                    <!-- If user is logged out, it shows buttons to access Log in and Register pages -->
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('login') }}" id="login-btn">
                         <i class="fas fa-sign-in-alt right"></i>Log In</a>
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('register') }}" id="register-btn">
@@ -25,6 +31,7 @@
         </div>
     </div>
 
+    <!-- Shows all the Recipe Categories with links to the Recipes in that Category -->
     <div class="container">
         <div class="row">
             {% for category in categories %}
