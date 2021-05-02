@@ -3,6 +3,7 @@
 
 <main>
     
+    <!-- Log In Title -->
     <div class="container">
         <div class="row">
             <div class="col s12">
@@ -14,6 +15,7 @@
     <div class="row">
         <form class="col s12 m8 offset-m2 account-form" method="POST" action="{{ url_for('login') }}">
             <div class="row">
+                <!-- Username input field -->
                 <div class="input-field col s10 offset-s1">
                     <i class="fas fa-user prefix"></i>
                     <input id="username" name="username" type="text" minlength="5" maxlength="15" pattern="^[a-zA-Z0-9]{5,15}$"
@@ -21,6 +23,8 @@
                     <label for="username">Username</label>
                 </div>
             </div>
+
+            <!-- Password input field -->
             <div class="row">
                 <div class="input-field col s10 offset-s1">
                     <i class="fas fa-lock prefix"></i>
@@ -28,6 +32,8 @@
                     <label for="password">Password</label>
                 </div>
             </div>
+
+            <!-- Log In submit button -->
             <div class="row">
                 <button type="submit" class="col s10 offset-s1 waves-effect waves-light btn-large">
                     Log in <i class="fas fa-sign-in-alt"></i>
@@ -36,6 +42,7 @@
         </form>
     </div>
 
+    <!-- Link to Register page -->
     <div class="row">
         <div class="col s10 offset-s1">
             <p class="center-align log-reg-p">
