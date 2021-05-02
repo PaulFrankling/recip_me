@@ -14,16 +14,19 @@ main {
     margin-top: 25px;
 }
 
+/* Navbar links */
 nav li a {
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
 }
 
+/* Sidenav icon button */
 nav i {
     color: #E71D36;
 }
 
+/* Sidenav heading */
 .sidenav h4 {
     color: #E71D36;
     font-family: Dancing Script, Lato, Sans-serif;
@@ -31,28 +34,33 @@ nav i {
     margin-left: 30px;
 }
 
+/* Sidenav links */
 .sidenav li a {
     color: #033F63;
     font-size: 18px;
 }
 
+/* Website logo */
 #nav-logo {
     margin-top: 10px;
     height: 80px;
     width: 80px;
 }
 
+/* Home page Tagline */
 .home-page p {
     font-size: 25px;
     font-weight: 700;
     color: #033F63;
 }
 
+/* Targets the word 'you' in the Home page tagline */
 .home-page em {
     color: #E71D36;
     font-size: 25px;
 }
 
+/* Button that links to Log In page on Home page */
 #login-btn {
     background-color: #033F63;
     color: #FFFFFF;
@@ -60,6 +68,7 @@ nav i {
     margin: 5px;
 }
 
+/* Button that links to Register page on Home page */
 #register-btn {
     background-color: #E71D36;
     color: #FFFFFF;
@@ -67,6 +76,7 @@ nav i {
     margin: 5px;
 }
 
+/* Button that links to Profile page on Home page */
 #profile-btn {
     background-color: #033F63;
     color: #FFFFFF;
@@ -74,6 +84,7 @@ nav i {
     margin: 5px;
 }
 
+/* Button that links to Recipes page on Home page */
 #recipes-btn {
     background-color: #E71D36;
     color: #FFFFFF;
@@ -81,20 +92,24 @@ nav i {
     margin: 5px;
 }
 
+/* Background colour of Cool Grey */
 #bg-image {
     background-color: #888DA7;
 }
 
+/* Footer */
 .page-footer {
     background-color: rgba(231, 29, 54, 0.3);
     color: #FFFFFF;
     margin-top: 50px;
 }
 
+/* Social media icons */
 .social-media i {
     color: #FFFFFF;
 }
 
+/* Circle surround of Social media icons */
 .icon-bg {
     padding: 10px;
     margin: 0 5px;
@@ -104,28 +119,33 @@ nav i {
     background-color: #E71D36;
 }
 
+/* Changes colour of the circle surround of the Social media icons */
 .icon-bg:hover {
     background-color: #033F63;
 }
 
+/* Styling of each pages title */
 .page-title {
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
     color: #FFFFFF;
 }
 
+/* Input field icons */
 .input-field i {
     color: #033F63;
 }
 
-.account-form button[type="submit"] {
+/* Submit button for all website forms */
+.webpage-form button[type="submit"] {
     background-color: #E71D36;
     color: #FFFFFF;
     font-size: 18px;
     margin: 5px;
 }
 
-.account-form placeholder {
+/*  */
+.webpage-form placeholder {
     color: #033F63;
     font-weight: 700;
 }
