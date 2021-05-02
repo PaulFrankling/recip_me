@@ -20,12 +20,17 @@
     <title>RecipMe</title>
 </head>
 <body id="bg-image">
+
+    <!-- Navigation bar -->
     <header>
         <nav class="nav-extended transparent z-depth-0">
             <div class="nav-wrapper">
+                <!-- Website logo -->
                 <a href="{{ url_for('index') }}" class="brand-logo"><img
                         src="{{ url_for('static', filename='images/logo.png') }}" id="nav-logo" alt="logo"></a>
+                <!-- Mobile side bar navigation icon -->        
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars fa-2x"></i></a>
+                <!-- Navigation bar links -->
                 <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('index') }}">Home</a></li>
                     <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
@@ -40,6 +45,8 @@
                 </ul>
             </div>
         </nav>
+
+        <!-- Mobile side bar navigation links -->
         <ul class="sidenav" id="mobile-demo">
             <li><h4>RecipMe</h4></li>
             <li><a href="{{ url_for('index') }}">Home</a></li>
@@ -55,6 +62,7 @@
         </ul>
     </header>
 
+    <!-- Flash messages -->
     <section>
         {% with messages = get_flashed_messages() %}
             {% if messages %}
@@ -70,17 +78,21 @@
     {% block content %}
     {% endblock %}
 
+    <!-- Footer -->
     <footer class="page-footer">
         <div class="container">
             <div class="row">
+                <!-- Social media icons -->
                 <div class="col s12 center-align social-media">
                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x icon-bg"></i></a>
                     <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x icon-bg"></i></a>
                     <a href="https://www.pinterest.co.uk" target="_blank"><i class="fab fa-pinterest-p fa-2x icon-bg"></i></a>
                 </div>
+                <!-- Copyright -->
                 <div class="col s12 center-align">
                     <h6>Paul Frankling 2021&#169;</h6>
                 </div>
+                <!-- Back to top button -->
                 <div class="fixed-action-btn">
                     <a class="btn-floating btn-large red">
                     <i class="fas fa-arrow-up"></i>
@@ -97,7 +109,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- JS -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <!-- Back to top button JS (topButton.js) -->
+    <!-- Back to top button JS -->
     <script src="{{ url_for('static', filename='js/topButton.js') }}"></script>
     {% block scripts %}
     {% endblock %}

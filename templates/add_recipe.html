@@ -2,7 +2,8 @@
 {% block content %}
 
 <main>
-    
+
+    <!-- Add Recipe title -->
     <div class="container">
         <div class="row">
             <div class="col s12">
@@ -11,6 +12,7 @@
         </div>
     </div>
 
+    <!-- Recipe Name input field -->
     <div class="row">
         <form class="col s12 m8 offset-m2 account-form" method="POST" action="{{ url_for('add_recipe') }}">
             <div class="row">
@@ -20,7 +22,9 @@
                         class="validate" required>
                     <label for="recipe_name">Recipe Name</label>
                 </div>
-                    <div class="input-field col s12 m6">
+
+                <!-- Recipe Image input field -->
+                <div class="input-field col s12 m6">
                     <i class="fas fa-image prefix"></i>
                     <input id="recipe_image" name="recipe_image" type="text" maxlength="500"
                         class="validate">
@@ -28,6 +32,7 @@
                 </div>
             </div>
 
+            <!-- Recipe Description input field -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-quote-left prefix"></i>
@@ -37,19 +42,22 @@
                 </div>
             </div>
 
+            <!-- Recipe Category select field -->
             <div class="row">
-            <div class="input-field col s12 m4">
-                <i class="fas fa-utensils prefix"></i>
-                 <select id="category_name" name="category_name" class="validate" required>
-                    <option value="" disabled selected>Recipe Category</option>
-                    {% for category in categories %}
-                    <option value="{{ category.category_name }}">{{ category.category_name }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+                <div class="input-field col s12 m4">
+                    <i class="fas fa-utensils prefix"></i>
+                    <select id="category_name" name="category_name" class="validate" required>
+                        <option value="" disabled selected>Recipe Category</option>
+                        {% for category in categories %}
+                        <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <!-- Recipe Time select field -->
                 <div class="input-field col s12 m4">
                     <i class="fas fa-clock prefix"></i>
-                     <select id="recipe_time" name="recipe_time" class="validate" required>
+                    <select id="recipe_time" name="recipe_time" class="validate" required>
                         <option value="" disabled selected>Recipe Time</option>
                         {% for time in range(5,121,5) %}
                         <option value="{{ time }}">{{ time }} Minutes</option>
@@ -57,6 +65,8 @@
                         <option value="120+">120 + Minutes</option>
                      </select>
                 </div>
+
+                <!-- Recipe Serving(s) select field -->
                 <div class="input-field col s12 m4">
                     <i class="fas fa-users prefix"></i>
                      <select id="recipe_servings" name="recipe_servings" class="validate" required>
@@ -68,6 +78,7 @@
                 </div>
             </div>
 
+            <!-- Recipe Ingredients input field -->
             <div class="row">
                 <div class="input-field col s12 ingredient-wrapper">
                     <i class="fas fa-shopping-basket prefix"></i>
@@ -78,6 +89,7 @@
                 </div>
             </div>
 
+            <!-- Recipe Ingredients method field -->
             <div class="row">
                 <div class="input-field col s12 method-wrapper">
                     <i class="fas fa-mortar-pestle prefix"></i>
@@ -88,6 +100,7 @@
                 </div>
             </div>
 
+            <!-- Add Recipe submit button -->
             <div class="row">
                 <button type="submit" class="col s10 offset-s1 waves-effect waves-light btn-large">
                     Add Recipe <i class="fas fa-book"></i>
