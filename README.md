@@ -112,6 +112,13 @@ The database is made up of three collections; Categories, Recipes and Users.
 
 ## Issues Overcome:
 
+## Future features to implement:
+
+* Pagination for all pages to provide a better UX.
+* An option for user to save other peoples recipes to a favourites list.
+* An option for the user to comment on other users recipes as well as receive feedback on their own.
+* An option for the user to upload an image such of their own instead of just a URL.
+
 ## Technology used:
 
 ### Programming Languages
@@ -216,8 +223,6 @@ so these variables can't be pushed to GitHub.
 
 All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 
-> This project was created for educational purposes only.
-
 * [PBJ French Toast](https://www.allrecipes.com/recipe/239317/pbj-french-toast/)
 * [Perfect Breakfast](https://www.allrecipes.com/recipe/221304/perfect-breakfast/)
 * [Honey Nut Granola](https://www.allrecipes.com/recipe/21208/honey-nut-granola/)
@@ -233,6 +238,8 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 * [Healthy Pumpkin Cranberry Muffins](https://www.allrecipes.com/recipe/232460/healthy-pumpkin-cranberry-muffins/)
 * [Strawberry Blueberry Smoothies](https://www.allrecipes.com/recipe/223140/strawberry-blueberry-smoothies/)
 * [Ultimate Fruit Smoothie](https://www.allrecipes.com/recipe/236204/ultimate-fruit-smoothie/)
+
+> This project was created for educational purposes only.
 
 ### Media Used
 
