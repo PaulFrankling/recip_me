@@ -2,6 +2,8 @@
 
 ## Code Institute - Milestone Project 3
 
+![RecipMe Mockup](static/docs/recipme-mockup.png)
+
 [Click here to view my website](https://recipme-project.herokuapp.com/)
 
 This website has been designed to the target the new, experienced and enthusiatic cooks of the world.
