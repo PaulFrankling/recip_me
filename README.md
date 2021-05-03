@@ -117,7 +117,7 @@ The database is made up of three collections; Categories, Recipes and Users.
 * Pagination for all pages to provide a better UX.
 * An option for user to save other peoples recipes to a favourites list.
 * An option for the user to comment on other users recipes as well as receive feedback on their own.
-* An option for the user to upload an image such of their own instead of just a URL.
+* An option for the user to upload an image of their own instead of just a URL.
 
 ## Technology used:
 
@@ -256,6 +256,6 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 
 #### Acknowledgements
 
-* Many thanks to my Mentor; Gurjot Singh, who helped greatly. He offered lots of advice and potential ideas and solutions.
+* Many thanks to my Mentor; Gurjot Singh, who helped greatly. He offered lots of advice, potential ideas and solutions.
 * Many thanks to Code Institute tutor support for quick response and guidance in solving any issues.
 * Many thanks to the Slack community for helping me understand certain aspects of the project.
