@@ -216,6 +216,8 @@ so these variables can't be pushed to GitHub.
 
 All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 
+> This project was created for educational purposes only.
+
 * [PBJ French Toast](https://www.allrecipes.com/recipe/239317/pbj-french-toast/)
 * [Perfect Breakfast](https://www.allrecipes.com/recipe/221304/perfect-breakfast/)
 * [Honey Nut Granola](https://www.allrecipes.com/recipe/21208/honey-nut-granola/)
@@ -244,3 +246,9 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 * The Sides image is by  Jason Goh from [Pixabay](https://pixabay.com/photos/water-spinach-kangkong-sambal-chilli-1628620/).
 * The Desserts image is by gefrorene_wand from [Pixabay](https://pixabay.com/photos/dessert-milk-product-delicious-1647468/).
 * The Smoothies image is by NielsBB from [Pixabay](https://pixabay.com/photos/fruit-dessert-food-drink-snack-3222313/).
+
+#### Acknowledgements
+
+* Many thanks to my Mentor; Gurjot Singh, who helped greatly. He offered lots of advice and potential ideas and solutions.
+* Many thanks to Code Institute tutor support for quick response and guidance in solving any issues.
+* Many thanks to the Slack community for helping me understand certain aspects of the project.
