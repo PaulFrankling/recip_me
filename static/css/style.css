@@ -155,7 +155,10 @@ nav i {
     color: #FFFFFF;
 }
 
+
 /* Changes colour of input field when selected for input */
+/* Credit: https://stackoverflow.com/questions/37127123/change-color-of-underline-input-and-label-in-materialize-css-framework/37127156)
+    - helped change colour of input fields when they were selected for interaction. */
 .input-field input[type=text]:focus + label {
     color: #FFFFFF !important;
 }
@@ -218,6 +221,8 @@ nav i {
 }
 
 /* Image card */
+/* Credit: https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
+    - helped me with setting my images up on their respective cards. */
 .food-image {
     float: left;
     width:  350px;
@@ -382,8 +387,14 @@ ol, ul {
     color: #E71D36;
 }
 
-.profile-sub {
+/* Profile page paragraphs */
+.profile-p {
     font-size: 25px;
     font-weight: 700;
     color: #033F63;
+}
+
+/* Add recipe button on the profile page */
+#add-recipe-btn {
+    background-color: #E71D36;
 }

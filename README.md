@@ -206,6 +206,7 @@ so these variables can't be pushed to GitHub.
 
 ### Code
 
+* [Task Manager](https://github.com/Code-Institute-Solutions/TaskManagerAuth) project from [Code Institute](https://codeinstitute.net/) was used to help develop my own project.
 * [Stack Overflow](https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css) was used to help with the equal sizing of the category and recipe card images.
 * [Stack Overflow](https://stackoverflow.com/questions/37127123/change-color-of-underline-input-and-label-in-materialize-css-framework/37127156) was used to help target the Materialize form fields when selected and change their colours on `focus`.
 * [Sanwebe](https://www.sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery) was used to help add an extra input field for the user to add more than one item to the ingredients or method section.

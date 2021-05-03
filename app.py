@@ -155,7 +155,7 @@ def profile(username):
         {"username": session["user"]})["username"]
 
     if session["user"]:
-        recipes = mongo.db.recipes.find()
+        recipes = list(mongo.db.recipes.find().sort("recipe_name", 1))
         return render_template("profile.html", username=username, recipes=recipes)
 
     return render_template(url_for("login"))
