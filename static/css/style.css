@@ -399,6 +399,11 @@ ol, ul {
     background-color: #E71D36;
 }
 
+/* Error page heading */
+.error-heading {
+    color: #E71D36;
+}
+
 /* Error page paragraphs */
 .error-para {
     font-size: 25px;

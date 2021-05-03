@@ -100,6 +100,7 @@ def show_recipe(recipe_id):
 
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
+
     if not session.get("user"):
         return render_template("404.html")
 
@@ -125,6 +126,7 @@ def add_recipe():
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
+
     if not session.get("user"):
         return render_template("404.html")
 
@@ -157,15 +159,15 @@ def delete_recipe(recipe_id):
 
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
+    if not session.get("user"):
+        return render_template("404.html")
+
     username = mongo.db.users.find_one(
         {"username": session["user"]})["username"]
 
     if session["user"]:
         recipes = list(mongo.db.recipes.find().sort("recipe_name", 1))
         return render_template("profile.html", username=username, recipes=recipes)
-
-    if not session.get("user"):
-        return render_template("404.html")
 
     return render_template(url_for("login"))
 
