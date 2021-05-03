@@ -126,10 +126,6 @@ def add_recipe():
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
-
-    if not session.get("user"):
-        return render_template("404.html")
-
     if request.method == "POST":
         submit = {
             "recipe_name": request.form.get("recipe_name"),
