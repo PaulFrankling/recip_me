@@ -100,6 +100,9 @@ def show_recipe(recipe_id):
 
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
+    if not session.get("user"):
+        return render_template("404.html")
+
     if request.method == "POST":
         recipe = {
             "recipe_name": request.form.get("recipe_name"),
@@ -122,6 +125,9 @@ def add_recipe():
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
+    if not session.get("user"):
+        return render_template("404.html")
+
     if request.method == "POST":
         submit = {
             "recipe_name": request.form.get("recipe_name"),
@@ -158,6 +164,9 @@ def profile(username):
         recipes = list(mongo.db.recipes.find().sort("recipe_name", 1))
         return render_template("profile.html", username=username, recipes=recipes)
 
+    if not session.get("user"):
+        return render_template("404.html")
+
     return render_template(url_for("login"))
 
 
@@ -166,11 +175,6 @@ def logout():
     flash("You have successfully logged out!")
     session.clear()
     return redirect(url_for("login"))
-
-
-@app.errorhandler(404)
-def page_not_found(e):
-    return render_template("404.html"), 404
 
 
 if __name__ == "__main__":

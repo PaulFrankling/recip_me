@@ -398,3 +398,15 @@ ol, ul {
 #add-recipe-btn {
     background-color: #E71D36;
 }
+
+/* Error page paragraphs */
+.error-para {
+    font-size: 25px;
+    font-weight: 700;
+    color: #033F63;
+}
+
+/* Error page home redirect button */
+#home-btn {
+    background-color: #E71D36;
+}
