@@ -79,35 +79,21 @@ The database is made up of three collections; Categories, Recipes and Users.
 
 ### Logged out pages:
 
-* Home page Wireframe:
+* [Home Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/home-wireframe.png)
 
-![Home page Wireframe](static/docs/wireframes/home-wireframe.png)
+* [Log In/Register Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/register-login-wireframe.png)
 
-* Log in/Register page wireframe:
+* [Recipes Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/recipes-wireframe.png)
 
-![Log in/Register page Wireframe](static/docs/wireframes/register-login-wireframe.png)
-
-* Recipes page wireframe: 
-
-![Recipes page Wireframe](static/docs/wireframes/recipes-wireframe.png)
-
-* Category page wireframe:
-
-![Category page Wireframe](static/docs/wireframes/category-wireframe.png)
+* [Category Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/category-wireframe.png)
 
 ### Logged in pages:
 
-* Add Recipe page wireframe: 
+* [Add Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/add-recipe-wireframe.png) 
 
-![Recipes page Wireframe](static/docs/wireframes/add-recipe-wireframe.png)
+* [Edit Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/edit-recipe-wireframe.png)
 
-* Edit Recipe page wireframe: 
-
-![Recipes page Wireframe](static/docs/wireframes/edit-recipe-wireframe.png)
-
-* Show Recipe page wireframe:
-
-![Recipes page Wireframe](static/docs/wireframes/show-recipe-wireframe.png)
+* [Show Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/show-recipe-wireframe.png)
 
 
 ## Features:
