@@ -19,8 +19,7 @@
     <!-- Shows recipes added by current user -->
     <div class="container">
         <div class="row">
-            {% for recipe in recipes %}
-            {% if session.user|lower == recipe.added_by|lower %}
+            {% for recipe in recipes if session.user|lower == recipe.added_by|lower %}
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-light">
@@ -36,21 +35,18 @@
                         </div>
                     </div>
                 </div>
-            <!-- Button below takes user to Add Recipe page -->
-            {% else %}
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 center-align">
-                        <p class="profile-p"></p>
-                        <a class="waves-effect waves-light btn-large" href="{{ url_for('add_recipe') }}" id="add-recipe-btn">
-                        <i class="fas fa-book right"></i>Add Recipe</a>
-                    </div>
-                </div>
+                {% else %}
             </div>
-            {% endif %}
-            {% endfor %}
+            <!-- This button shows when user has no added recipes -->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <p class="profile-p"></p>
+                    <a class="waves-effect waves-light btn-large" href="{{ url_for('add_recipe') }}" id="add-recipe-btn">
+                    <i class="fas fa-book right"></i>Add Recipe</a>
+                </div>
+                {% endfor %}
+            </div>
         </div>
-    </div>
 
 </main>
 
