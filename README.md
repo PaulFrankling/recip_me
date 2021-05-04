@@ -245,6 +245,6 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 #### Acknowledgements
 
 * Many thanks to my Mentor; Gurjot Singh, who helped greatly. He offered lots of advice, potential ideas and solutions.
-* Many thanks to Code Institute tutor support for quick response and guidance in solving any issues. A particular mention 
+* Many thanks to Code Institute tutor support for their quick responses and guidance in solving any issues. A particular mention 
 to Igor Basuga, Kevin Loughrey and Tim Nelson. 
 * Many thanks to the Slack community for helping me understand certain aspects of the project.
