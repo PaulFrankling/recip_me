@@ -189,7 +189,7 @@ def profile(username):
 @app.route("/logout")
 def logout():
     flash("You have successfully logged out!")
-    session.clear()
+    session.pop("user")
     return redirect(url_for("login"))
 
 
