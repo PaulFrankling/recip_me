@@ -77,29 +77,23 @@ The database is made up of three collections; Categories, Recipes and Users.
 
 ## Wireframes:
 
-### Logged out pages:
+* [Add Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/add-recipe-wireframe.png)
+
+* [Category Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/category-wireframe.png)
+
+* [Edit Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/edit-recipe-wireframe.png)
+
+* [Error Page Wireframes](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/error-wireframes.png)
 
 * [Home Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/home-wireframe.png)
 
 * [Log In/Register Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/register-login-wireframe.png)
 
-* [Recipes Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/recipes-wireframe.png)
-
-* [Category Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/category-wireframe.png)
-
-### Logged in pages:
-
-* [Add Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/add-recipe-wireframe.png) 
-
-* [Edit Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/edit-recipe-wireframe.png)
-
-* [Show Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/show-recipe-wireframe.png)
-
 * [Profile Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/profile-wireframe.png)
 
-### Error pages:
+* [Recipes Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/recipes-wireframe.png)
 
-* [Error Page Wireframes](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/error-wireframes.png)
+* [Show Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/show-recipe-wireframe.png)
 
 
 ## Features:
@@ -251,5 +245,6 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 #### Acknowledgements
 
 * Many thanks to my Mentor; Gurjot Singh, who helped greatly. He offered lots of advice, potential ideas and solutions.
-* Many thanks to Code Institute tutor support for quick response and guidance in solving any issues.
+* Many thanks to Code Institute tutor support for quick response and guidance in solving any issues. A particular mention 
+to Igor Basuga, Kevin Loughrey and Tim Nelson. 
 * Many thanks to the Slack community for helping me understand certain aspects of the project.
