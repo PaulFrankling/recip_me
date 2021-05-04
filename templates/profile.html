@@ -36,9 +36,8 @@
                         </div>
                     </div>
                 </div>
-            {% endif %}
-            {% endfor %}
             <!-- Button below takes user to Add Recipe page -->
+            {% else %}
             <div class="container">
                 <div class="row">
                     <div class="col s12 center-align">
@@ -48,6 +47,8 @@
                     </div>
                 </div>
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
 
