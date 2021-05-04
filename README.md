@@ -95,6 +95,8 @@ The database is made up of three collections; Categories, Recipes and Users.
 
 * [Show Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/show-recipe-wireframe.png)
 
+* [Profile Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/profile-wireframe.png)
+
 
 ## Features:
 
