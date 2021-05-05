@@ -156,10 +156,16 @@ If the user hasn't got any added recipes, the user is met with an "Add Recipe" b
 This page presents a form to the user in which they can create a recipe. The page is only accessible if the user is logged in.
 The form has input fields to enter the recipe name, the recipes image URL, description, ingredients and method.
 It also has three select fields; the category, time, and servings.
-All input fields must be filled in apart from the image URL as the user may not have an image for the recipe.
-This is the image shown on the image card when the input field is left blank:
 
-![No image available](static/images/recipe-alt.png)
+All input fields must be filled in apart from the image URL as the user may not have an image for the recipe. I have created a default image 
+that appears on the image card when the user doesn't input anything in the image URL field [here](https://github.com/PaulFrankling/recip_me/blob/master/static/images/recipe-alt.png).
+
+The category select field presents the options that belong to the category collection in [MongoDB](https://cloud.mongodb.com/); Breakfast, Starters, Mains, Sides, Desserts and Smoothies.
+The time select field options range from 5 minutes to 120. If any more then I have finalised the options at 120+ minutes. The servings range from 1 - 20 serving(s).
+
+The ingredients and method input fields can have multiple input fields added as the user most likely has more than one ingredient or step in their recipe.
+
+The 'Add Recipe' button at the bottom will add the recipe when all requirements are met and the user will be redirected to the Recipes page with a Flash message saying *"Recipe successfully added!"*.
 
 
 ## Issues Overcome:
