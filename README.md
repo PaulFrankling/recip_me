@@ -207,7 +207,7 @@ It was personal preference to change the background and I changed it to the colo
 
     ![After Truncate fix](static/docs/bug-fix-truncate.png)
 
-* Lastly, I had an issue trying to show an 'Add Recipe' button on the Profile page, if the user hadn't added any recipes.
+* Lastly, I had an issue trying to show an 'Add Recipe' button on the Profile page, if the user hadn't added any recipes. Issue shown below:
 
     ![Profile page fix](static/docs/profile-page-fix.png)
 
@@ -243,6 +243,7 @@ It was personal preference to change the background and I changed it to the colo
 1. [Flask](https://flask.palletsprojects.com/en/1.1.x/) micro web framework was used to build the project.
 1. [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is used for templating python into HTML.
 1. [MongoDB](https://cloud.mongodb.com/) is a non-relational database used for the project.
+1. [Am I Responsive?](http://ami.responsivedesign.is/) was used to create a mockup of the project.
 1. [Git](https://git-scm.com/) was used for version control. Code produced in the Gitpod terminal was committed and pushed to GitHub.
 1. [GitHub](https://github.com/) was used to store the project code pushed from Git.
 1. [Heroku](https://dashboard.heroku.com/apps) was used to deploy the project.
