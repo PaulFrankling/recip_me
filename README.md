@@ -79,7 +79,7 @@ The database is made up of three collections; Categories, Recipes and Users.
 
 * [Add Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/add-recipe-wireframe.png)
 
-* [Category Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/category-wireframe.png)
+* [Categories Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/categories-wireframe.png)
 
 * [Edit Recipe Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/edit-recipe-wireframe.png)
 
@@ -118,6 +118,10 @@ The Home page presents two CTA buttons; Log In and Register, which when the user
 If the user is signed in, the buttons change to Profile and Recipes that link to their respective pages.
 
 Below the buttons, are category cards that the user can click on to view recipes belonging to its category. The user can do this signed in or signed out.
+
+### Categories Page
+
+This page is accessed from the Home page category image cards. Each category page shows recipes belonging to its category. The categories are Breakfast, Starters, Mains, Sides, Desserts and Smoothies.
 
 ### Recipes Page
 
@@ -161,7 +165,7 @@ It also has three select fields; the category, time, and servings.
 All input fields must be filled in apart from the image URL as the user may not have an image for the recipe. I have created a default image 
 that appears on the image card when the user doesn't input anything in the image URL field [here](https://github.com/PaulFrankling/recip_me/blob/master/static/images/recipe-alt.png).
 
-The category select field presents the options that belong to the category collection in [MongoDB](https://cloud.mongodb.com/); Breakfast, Starters, Mains, Sides, Desserts and Smoothies.
+The category select field presents the options that belong to the category collection in [MongoDB](https://cloud.mongodb.com/).
 The time select field options range from 5 minutes to 120. If any more then I have finalised the options at 120+ minutes. The servings range from 1 - 20 serving(s).
 
 The ingredients and method input fields can have multiple input fields added as the user most likely has more than one ingredient or step in their recipe.
@@ -175,6 +179,18 @@ The Edit Recipe page is laid out exactly like the Add Recipe page. This page is 
 The input fields are prepopulated with the respective recipes information so it doesn't have to be completely refilled and it can be resubmitted easily once edited.
 
 There is a cancel button below the submit button that cancels the edit and takes the user to the Recipes page. Once edited successfully, a Flash message appears saying "Recipe successfully updated!".
+
+### Show Recipe Page
+
+This page shows the details belonging to each recipe. The ingredients are presented in bullet points due to the `<ul>` tag and the method list is presented in numerical order due to the `<ol>` tag.
+It shows the name of the user who added the recipe at the bottom of the page. 
+
+When the user is signed in and it's their recipe, it shows an 'Edit Recipe' button and a 'Delete Recipe' button. The 'Edit Recipe' button takes the user to the Edit Recipe page. 
+When the user clicks the 'Delete Recipe' button, they are propositioned by a 'Yes' or 'No' option in the form of a modal. If the user clicks 'Yes' the recipe is deleted and the user is redirected to the Recipes page and presented with a Flash message saying *"Recipe successfully deleted!"*.
+
+### Error pages
+
+The Error pages are created to help redirect the user when the page is not found or there is a server error. Both pages have buttons that redirect the user to the Home page.
 
 ## Issues Overcome:
 
