@@ -112,9 +112,9 @@ The Footer has three social media icons and copyright information.
 
 ### Home page 
 
-The home page presents the RecipMe heading and slogan.
+The Home page presents the RecipMe heading and slogan.
 
-The home page presents two CTA buttons; Log In and Register, which when the user is signed out will takes the user to the chosen links.
+The Home page presents two CTA buttons; Log In and Register, which when the user is signed out will takes the user to the chosen links.
 If the user is signed in, the buttons change to Profile and Recipes that link to their respective pages.
 
 Below the buttons, are category cards that the user can click on to view recipes belonging to its category. The user can do this signed in or signed out.
@@ -130,7 +130,12 @@ If a category name, recipe name or recipe ingredient is input into the search en
 
 If the database doesn't have what the user searched for, the page returns with 'No Results Found'. There is also a Reset button for the user to easily refresh their search.
 
-### Log In page 
+### Register page
+
+This page allows the user to create an account. The user is required to only use either uppercase or lowercase letters and numbers when picking a username or password.
+If the user inputs a username already belonging to another user, a Flash message appears saying *"This username already exists!"*
+When the user registers there account meeting all the requirements, they receive a Flash message saying *"You have successfully registered with RecipMe!"*.
+
 
 ## Issues Overcome:
 
