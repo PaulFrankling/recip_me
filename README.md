@@ -57,7 +57,7 @@ The font **Lato** has been chosen for all the content of the project. **Lato** w
 
 ### Imagery
 
-The website logo has been created on and styled on [Flaticon](https://www.flaticon.com/), which presents the welcoming image of a smiling cook.
+The website logo has been created on and styled on [Flaticon](https://www.flaticon.com/), which presents the welcoming image of a smiling Cook.
 
 The strawberries image is taken from [Pixabay](https://pixabay.com/) and is used to suit the colour scheme of the website as well as present a healthy theme to the user.
 
@@ -97,6 +97,27 @@ The database is made up of three collections; Categories, Recipes and Users.
 
 
 ## Features:
+
+This is a mobile first, fully responsive website which was designed through the use of [Materialize](https://materializecss.com/).
+The projects base template (`base.html`) presents the Navigation bar, Footer and Back to top button(Takes the user back to the top of each webpage) on all pages.
+As well as these elements, it also implements the Mobile Side Navigation bar and any prompted Flash messages.
+
+The Navigation bar presents the website logo of a Cook which links back to the Home page.
+
+The Navigation bar can take the user directly to the Home page, Recipes page, Login page and Register page when the user isn't signed in.
+
+The Navigation bar can take the user directly to the Home page, Recipes page, Add Recipe page and their Profile page when the user is signed in. As well as this, the Log out function is located on the Navigation bar.
+
+The Footer has three social media icons and copyright information.
+
+### Home page 
+
+The home page presents the RecipMe heading and slogan.
+
+The home page presents two CTA buttons; Log In and Register, which when the user is signed out will takes the user to the chosen links.
+If the user is signed in, the buttons change to Profile and Recipes that link to their respective pages.
+
+Below the buttons, are category cards that the user can click on to view Recipes belonging to its category.
 
 ## Issues Overcome:
 
