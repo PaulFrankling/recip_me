@@ -117,7 +117,20 @@ The home page presents the RecipMe heading and slogan.
 The home page presents two CTA buttons; Log In and Register, which when the user is signed out will takes the user to the chosen links.
 If the user is signed in, the buttons change to Profile and Recipes that link to their respective pages.
 
-Below the buttons, are category cards that the user can click on to view Recipes belonging to its category.
+Below the buttons, are category cards that the user can click on to view recipes belonging to its category. The user can do this signed in or signed out.
+
+### Recipes page
+
+This page presents the user with a search engine to find any recipe that they might be interested in viewing.
+By connecting to [MongoDB](https://cloud.mongodb.com/) through the CLI, an index was created.
+
+> category_name, recipe_name and recipe_ingredients were selected for the index.
+
+If a category name, recipe name or recipe ingredient is input into the search engine, then it will return an appropriate recipe associated with one of those objects.
+
+If the database doesn't have what the user searched for, the page returns with 'No Results Found'. There is also a Reset button for the user to easily refresh their search.
+
+### Log In page 
 
 ## Issues Overcome:
 
