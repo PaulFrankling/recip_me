@@ -73,7 +73,18 @@ The images for each recipe have been taken from [Allrecipes](https://www.allreci
 
 [MongoDB](https://cloud.mongodb.com/) was used to create a non-relational database. 
 
-The database is made up of three collections; Categories, Recipes and Users. 
+The database is made up of three collections; Categories, Recipes and Users.
+
+## CRUD (Create, Read, Update, Delete):
+
+One of the main goals of the project is to implement CRUD functionality.
+
+With regards to this project:
+
+* Create - The user must have an account in order to create a recipe. Once the recipe is created, all users can view it, as well as people just visiting the site.
+* Read - Registered users and unregistered users can read any of the recipes created on the website.
+* Update - Registered users can edit their own recipes but cannot edit other users recipes.
+* Delete - Registered users can delete their own recipes but cannot delete other users recipes.
 
 ## Wireframes:
 
