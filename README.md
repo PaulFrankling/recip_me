@@ -110,7 +110,7 @@ The Navigation bar can take the user directly to the Home page, Recipes page, Ad
 
 The Footer has three social media icons and copyright information.
 
-### Home page 
+### Home Page 
 
 The Home page presents the RecipMe heading and slogan.
 
@@ -119,7 +119,7 @@ If the user is signed in, the buttons change to Profile and Recipes that link to
 
 Below the buttons, are category cards that the user can click on to view recipes belonging to its category. The user can do this signed in or signed out.
 
-### Recipes page
+### Recipes Page
 
 This page presents the user with a search engine to find any recipe that they might be interested in viewing.
 By connecting to [MongoDB](https://cloud.mongodb.com/) through the CLI, an index was created.
@@ -130,11 +130,36 @@ If a category name, recipe name or recipe ingredient is input into the search en
 
 If the database doesn't have what the user searched for, the page returns with 'No Results Found'. There is also a Reset button for the user to easily refresh their search.
 
-### Register page
+### Register Page
 
-This page allows the user to create an account. The user is required to only use either uppercase or lowercase letters and numbers when picking a username or password.
+This page allows the user to create an account. The user is required to only use either uppercase or lowercase letters and numbers when picking a username or password. It must also only be between 5-15 characters long.
 If the user inputs a username already belonging to another user, a Flash message appears saying *"This username already exists!"*
-When the user registers there account meeting all the requirements, they receive a Flash message saying *"You have successfully registered with RecipMe!"*.
+When the user registers there account meeting all the requirements, it takes the user to their profile page and they receive a Flash message saying *"You have successfully registered with RecipMe!"*.
+
+If the user already has an account, there is a link below the register form for the Log In page.
+
+### Log In Page
+
+This page logs the user into their account. The user must input their username and password correctly to access their account. 
+If they input either one incorrectly then a Flash message appears saying *"Incorrect Username and/or Password!"*.
+Once logged in, it takes the user to their profile page and says *"Hello (username)"*.
+
+If the user hasn't got an account, there is a link below the Log In form for the Register page.
+
+### Profile Page
+
+The Profile page is the page the user is taken to when first registered or logged in. This page presents all the users added recipes.
+If the user hasn't got any added recipes, the user is met with an "Add Recipe" button to prompt them to create one.
+
+### Add Recipe Page
+
+This page presents a form to the user in which they can create a recipe. The page is only accessible if the user is logged in.
+The form has input fields to enter the recipe name, the recipes image URL, description, ingredients and method.
+It also has three select fields; the category, time, and servings.
+All input fields must be filled in apart from the image URL as the user may not have an image for the recipe.
+This is the image shown on the image card when the input field is left blank:
+
+![No image available](static/images/recipe-alt.png)
 
 
 ## Issues Overcome:
