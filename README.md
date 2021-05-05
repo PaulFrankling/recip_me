@@ -133,6 +133,7 @@ If the database doesn't have what the user searched for, the page returns with '
 ### Register Page
 
 This page allows the user to create an account. The user is required to only use either uppercase or lowercase letters and numbers when picking a username or password. It must also only be between 5-15 characters long.
+
 If the user inputs a username already belonging to another user, a Flash message appears saying *"This username already exists!"*
 When the user registers there account meeting all the requirements, it takes the user to their profile page and they receive a Flash message saying *"You have successfully registered with RecipMe!"*.
 
@@ -167,6 +168,13 @@ The ingredients and method input fields can have multiple input fields added as 
 
 The 'Add Recipe' button at the bottom will add the recipe when all requirements are met and the user will be redirected to the Recipes page with a Flash message saying *"Recipe successfully added!"*.
 
+### Edit Recipe Page
+
+The Edit Recipe page is laid out exactly like the Add Recipe page. This page is only accessible when signed in and when the user is on the page of a recipe added by them.
+
+The input fields are prepopulated with the respective recipes information so it doesn't have to be completely refilled and it can be resubmitted easily once edited.
+
+There is a cancel button below the submit button that cancels the edit and takes the user to the Recipes page. Once edited successfully, a Flash message appears saying "Recipe successfully updated!".
 
 ## Issues Overcome:
 
