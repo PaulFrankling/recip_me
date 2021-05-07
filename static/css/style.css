@@ -144,8 +144,8 @@ nav i {
     margin: 5px;
 }
 
-/* Placeholder text for registering requirements */
-.register-placeholder {
+/* Paragraph below register page input fields for registering requirements */
+.register-para {
     color: #033F63;
     font-weight: 700;
 }
