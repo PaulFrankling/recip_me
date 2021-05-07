@@ -1,5 +1,6 @@
 body {
     font-family: Lato, Dancing Script, Sans-serif;
+    background-color: #888DA7;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -90,11 +91,6 @@ nav i {
     color: #FFFFFF;
     width: 175px;
     margin: 5px;
-}
-
-/* Background colour of Cool Grey */
-#bg-image {
-    background-color: #888DA7;
 }
 
 /* Footer */
