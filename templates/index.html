@@ -14,8 +14,8 @@
                     <p>A place to keep all those recipes that are a little bit of <em>you</em></p>
                     {% if session.user %}
                     <!-- If user is logged in, it shows buttons to access Profile and Recipes pages -->
-                    <a class="waves-effect waves-light btn-large" href="{{ url_for('profile', username=session['user']) }}"
-                        id="profile-btn">
+                    <a class="waves-effect waves-light btn-large"
+                        href="{{ url_for('profile', username=session['user']) }}" id="profile-btn">
                         <i class="fas fa-user right"></i>Profile</a>
                     <a class="waves-effect waves-light btn-large" href="{{ url_for('recipes') }}" id="recipes-btn">
                         <i class="fas fa-book right"></i>Recipes</a>
@@ -39,8 +39,8 @@
                 <div class="card">
                     <div class="card-image waves-effect waves-light">
                         <a href="{{ url_for('categories', category_name=category.category_name) }}">
-                        <img class="food-image" src="{{ category.category_image }}" alt="category-picture">
-                        <span class="card-title truncate">{{ category.category_name }}</span></a>
+                            <img class="food-image" src="{{ category.category_image }}" alt="category-picture">
+                            <span class="card-title truncate">{{ category.category_name }}</span></a>
                     </div>
                 </div>
             </div>

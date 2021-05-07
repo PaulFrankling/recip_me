@@ -7,10 +7,10 @@
         <div class="row">
             <div class="col s12 center-align">
                 <h1 class="page-title">{{ username }}'s Recipes</h1>
-            </div>      
-        <div class="row">
-            <div class="col s12 center-align">
-                <h4 class="profile-p">Your personalised RecipMe book ...</h4>
+            </div>
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h4 class="profile-p">Your personalised RecipMe book ...</h4>
                 </div>
             </div>
         </div>
@@ -25,28 +25,29 @@
                     <div class="card-image waves-effect waves-light">
                         {% if recipe.recipe_image %}
                         <a href="{{ url_for('show_recipe', recipe_id=recipe._id) }}"><img class="food-image"
-                            src="{{ recipe.recipe_image }}" alt="Recipe image">
-                        <span class="card-title truncate">{{ recipe.recipe_name }}</span></a>
+                                src="{{ recipe.recipe_image }}" alt="Recipe image">
+                            <span class="card-title truncate">{{ recipe.recipe_name }}</span></a>
                         {% else %}
                         <a href="{{ url_for('show_recipe', recipe_id=recipe._id) }}"><img class="food-image"
-                            src="{{ url_for('static', filename='images/recipe-alt.png') }}" alt="No image available">
-                        <span class="card-title truncate">{{ recipe.recipe_name }}</span></a>
+                                src="{{ url_for('static', filename='images/recipe-alt.png') }}"
+                                alt="No image available">
+                            <span class="card-title truncate">{{ recipe.recipe_name }}</span></a>
                         {% endif %}
-                        </div>
                     </div>
                 </div>
-                {% else %}
             </div>
-            <!-- This button shows when user has no added recipes -->
-            <div class="row">
-                <div class="col s12 center-align">
-                    <p class="profile-p"></p>
-                    <a class="waves-effect waves-light btn-large" href="{{ url_for('add_recipe') }}" id="add-recipe-btn">
-                    <i class="fas fa-book right"></i>Add Recipe</a>
-                </div>
-                {% endfor %}
-            </div>
+            {% else %}
         </div>
+        <!-- This button shows when user has no added recipes -->
+        <div class="row">
+            <div class="col s12 center-align">
+                <p class="profile-p"></p>
+                <a class="waves-effect waves-light btn-large" href="{{ url_for('add_recipe') }}" id="add-recipe-btn">
+                    <i class="fas fa-book right"></i>Add Recipe</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 
 </main>
 
