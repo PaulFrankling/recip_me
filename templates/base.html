@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" type="text/css">
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" type="text/css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet">
     <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        type="text/css">
     <!-- CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     <!-- Shortcut Icon -->
     <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
     {% block styles %}
     {% endblock %}
+
+    <!-- Title -->
     <title>RecipMe</title>
 </head>
+
 <body id="bg-image">
 
     <!-- Navigation bar -->
@@ -28,7 +35,7 @@
                 <!-- Website logo -->
                 <a href="{{ url_for('index') }}" class="brand-logo"><img
                         src="{{ url_for('static', filename='images/logo.png') }}" id="nav-logo" alt="logo"></a>
-                <!-- Mobile side bar navigation icon -->        
+                <!-- Mobile side bar navigation icon -->
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars fa-2x"></i></a>
                 <!-- Navigation bar links -->
                 <ul class="right hide-on-med-and-down">
@@ -48,7 +55,9 @@
 
         <!-- Mobile side bar navigation links -->
         <ul class="sidenav" id="mobile-demo">
-            <li><h4>RecipMe</h4></li>
+            <li>
+                <h4>RecipMe</h4>
+            </li>
             <li><a href="{{ url_for('index') }}">Home</a></li>
             <li><a href="{{ url_for('recipes') }}">Recipes</a></li>
             {% if session.user %}
@@ -65,13 +74,13 @@
     <!-- Flash messages -->
     <div>
         {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="row">
-                        <h5 class="flash-message center-align">{{ message }}</h5>
-                    </div>
-                {% endfor %}
-            {% endif %}
+        {% if messages %}
+        {% for message in messages %}
+        <div class="row">
+            <h5 class="flash-message center-align">{{ message }}</h5>
+        </div>
+        {% endfor %}
+        {% endif %}
         {% endwith %}
     </div>
 
@@ -84,9 +93,12 @@
             <div class="row">
                 <!-- Social media icons -->
                 <div class="col s12 center-align social-media">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x icon-bg"></i></a>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x icon-bg"></i></a>
-                    <a href="https://www.pinterest.co.uk" target="_blank"><i class="fab fa-pinterest-p fa-2x icon-bg"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i
+                            class="fab fa-facebook-f fa-2x icon-bg"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i
+                            class="fab fa-instagram fa-2x icon-bg"></i></a>
+                    <a href="https://www.pinterest.co.uk" target="_blank"><i
+                            class="fab fa-pinterest-p fa-2x icon-bg"></i></a>
                 </div>
                 <!-- Copyright -->
                 <div class="col s12 center-align">
@@ -114,4 +126,5 @@
     {% block scripts %}
     {% endblock %}
 </body>
+
 </html>
