@@ -63,17 +63,17 @@
     </header>
 
     <!-- Flash messages -->
-    <section>
+    <div>
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 {% for message in messages %}
                     <div class="row">
-                        <h3 class="flash-message center-align">{{ message }}</h3>
+                        <h5 class="flash-message center-align">{{ message }}</h5>
                     </div>
                 {% endfor %}
             {% endif %}
-        {% endwith %}        
-    </section>
+        {% endwith %}
+    </div>
 
     {% block content %}
     {% endblock %}
