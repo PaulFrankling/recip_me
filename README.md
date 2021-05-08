@@ -8,8 +8,9 @@
 
 This website has been designed to the target the new, experienced and enthusiatic cooks of the world.
 The website offers the user a chance to view various types of recipes, such as Breakfast or Dessert recipes.
-As well as viewing recipes, the user can create an account and share recipes of their own. The user doesn't require
-an account to view recipes and can use the search engine on the **recipes.html** page to find a particular recipe to try out.
+As well as viewing recipes, the user can create an account and share recipes of their own.
+The user can easily access their recipes on their Profile page and are able to edit and delete them. The user doesn't require
+an account to view recipes and can use the search engine on the Recipes page to find a particular recipe to try out.
 
 ## User Experience (UX):
 
@@ -193,7 +194,7 @@ There is a cancel button below the submit button that cancels the edit and takes
 
 ### Show Recipe Page
 
-This page shows the details belonging to each recipe. The ingredients are presented in bullet points due to the `<ul>` tag and the method list is presented in numerical order due to the `<ol>` tag.
+This page shows the details belonging to each recipe. The ingredients list is presented in bullet points due to the `<ul>` tag and the method list is presented in numerical order due to the `<ol>` tag.
 It shows the name of the user who added the recipe at the bottom of the page. 
 
 When the user is signed in and it's their recipe, it shows an 'Edit Recipe' button and a 'Delete Recipe' button. The 'Edit Recipe' button takes the user to the Edit Recipe page. 
