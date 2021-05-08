@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $(ingredientsWrapper).on("click", "#remove-ingredient", function (e) {
         e.preventDefault(); $(this).parent('div').remove(); i--; // Remove ingredient on click
-    })
+    });
 
 
     let maxMethod = 10; // Max number of method input fields that can be added
@@ -36,6 +36,6 @@ $(document).ready(function () {
 
     $(methodsWrapper).on("click", "#remove-method", function (e) {
         e.preventDefault(); $(this).parent('div').remove(); m--; // Removes method on click
-    })
+    });
 
 });
