@@ -52,7 +52,7 @@ The colour scheme used for this project was generated on [Coolor](https://coolor
 * Cool Grey `#888DA7`
 
 The colour of the footer, Category card titles and Recipe card titles is Rose Madder `#E71D36` converted to `rgba(231, 29, 54)`.
-I have added `0.4` to the end of it to make it slightly transparent for the cards and felt it suited the footer as well.
+I have added `0.4` to the end of the `rgba` to make it slightly transparent for the cards and felt it suited the footer as well.
 
 ### Typography
 
