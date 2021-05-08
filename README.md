@@ -250,6 +250,7 @@ It was personal preference to change the background and I changed it to the colo
 1. [Font Awesome](https://fontawesome.com/) has been used to add icons to the website.
 1. [Balsamiq](https://balsamiq.com/wireframes/desktop/) has been used to create the wireframes for the project and a Database Schema.
 1. [Hover.css](https://ianlunn.github.io/Hover/) has been added to show a colour change on hover of a social media icon in the footer.
+1. [Autoprefixer](https://autoprefixer.github.io/) was used to add web prefixes to my CSS in order for the styling to render properly on all browsers.
 1. [jQuery](https://jquery.com/) was used to create navbar toggle functionality.
 1. [Flask](https://flask.palletsprojects.com/en/1.1.x/) micro web framework was used to build the project.
 1. [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is used for templating python into HTML.

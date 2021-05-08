@@ -1,9 +1,14 @@
 body {
     font-family: Lato, Dancing Script, Sans-serif;
     background-color: #888DA7;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 html, body {
@@ -11,7 +16,9 @@ html, body {
 }
 
 main {
-    flex: 1 0 auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
     margin-top: 25px;
 }
 
@@ -167,13 +174,15 @@ nav i {
 /* Changes styling of input field when selected for input */
 .input-field input[type=text]:focus {
     border-bottom: 1px solid #FFFFFF !important;
-    box-shadow: 0 1px 0 0 #FFFFFF !important;
+    -webkit-box-shadow: 0 1px 0 0 #FFFFFF !important;
+            box-shadow: 0 1px 0 0 #FFFFFF !important;
 }
 
 /* Changes styling of input field when selected for input */
 .input-field input[type=password]:focus {
     border-bottom: 1px solid #FFFFFF !important;
-    box-shadow: 0 1px 0 0 #FFFFFF !important;
+    -webkit-box-shadow: 0 1px 0 0 #FFFFFF !important;
+            box-shadow: 0 1px 0 0 #FFFFFF !important;
 }
 
 /* Icon colour when selected */
@@ -224,7 +233,8 @@ nav i {
     float: left;
     width:  350px;
     height: 250px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 /* Reset button on Recipes page */
