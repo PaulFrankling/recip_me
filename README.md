@@ -267,6 +267,8 @@ It was personal preference to change the background and I changed it to the colo
 
 ## Testing:
 
+To view the testing process, [click here](https://github.com/PaulFrankling/recip_me/blob/master/TESTING.md).
+
 ## Deployment:
 
 This project was deployed by [Heroku](https://www.heroku.com/) through [GitHub](https://www.github.com/).
