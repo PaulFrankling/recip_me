@@ -362,8 +362,6 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 
 ### Media Used
 
-* The background image of strawberries on **all pages** is by Nietjuh from [Pixabay](https://pixabay.com/photos/strawberries-red-fruit-fruit-red-4417296/).
-
 #### Category images
 
 * The Breakfast image is by Aline Ponce from [Pixabay](https://pixabay.com/photos/eggs-fried-sunny-side-up-sandwich-1467284/).
