@@ -103,7 +103,7 @@ With regards to this project:
 
 * [Home Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/home-wireframe.png)
 
-* [Log In/Register Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/register-login-wireframe.png)
+* [Login/Register Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/register-login-wireframe.png)
 
 * [Profile Page Wireframe](https://github.com/PaulFrankling/recip_me/blob/master/static/docs/wireframes/profile-wireframe.png)
 
@@ -159,7 +159,7 @@ When the user registers there account meeting all the requirements, it takes the
 
 If the user already has an account, there is a link below the register form for the Log In page.
 
-### Log In Page
+### Login Page
 
 This page logs the user into their account. The user must input their username and password correctly to access their account. 
 If they input either one incorrectly then a Flash message appears saying *"Incorrect Username and/or Password!"*.
