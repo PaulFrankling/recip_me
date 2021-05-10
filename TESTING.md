@@ -101,7 +101,7 @@ The only thing brought to attention was that the `scripts.js` file needed two se
 
     * *As a Frequent User, I would like to be able to edit my own recipes.*
 
-       * **When viewing their own recipe, the user has the option to edit their recipe by clicking on the 'Edit Recipe' button and they're then directed to the Edit Recipe page to be able to edit it.**
+       * **When viewing their own recipe, the user has the option to edit their recipe by clicking on the 'Edit Recipe' button and they're then redirected to the Edit Recipe page to be able to edit it.**
 
        ![Edit Recipe Button Test Image](static/docs/testing/ux-testing/edit-recipe-ux-test.png)
 
@@ -120,3 +120,34 @@ The only thing brought to attention was that the `scripts.js` file needed two se
        * **The user has the option to visit social media accounts through the icons on the footer of the website.**
 
        ![Footer Test Image](static/docs/testing/ux-testing/footer-ux-test.png)
+
+#### Testing process
+
+The projects responsiveness was established through the framework [Materialize](https://materializecss.com/).
+The project was tested on numerous devices and presented no responsiveness issues.
+
+The website was thoroughly tested and a detailed account of each tested feature is documented below:
+
+##### Navigation bar
+
+* All navigation bar links were tested one by one and worked properly.
+* The Website logo correctly redirects the user to the Home page.
+* The Log out function works correctly and redirects the user to the Login page as expected.
+
+##### Flash messages
+
+* All Flash messages appear after the appropriate action is taken:
+  * User registers an account: "You have successfully registered with RecipMe!" &check;
+  * User logs into their account: "Hello { username }!" &check;
+  * User logs out of their account: "You have successfully logged out!" &check;
+  * User inputs an username that already exists: "This username already exists!" &check;
+  * User incorrectly inputs the wrong username or password when logging in: "Incorrect Username and/or Password!" &check;
+  * User successfully adds a recipe: "Recipe successfully added!" &check;
+  * User successfully edits a recipe: "Recipe successfully updated!" &check;
+  * User successfully deletes a recipe: "Recipe successfully deleted!" &check;
+
+
+
+
+
+
