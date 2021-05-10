@@ -89,7 +89,7 @@
                     <i class="fas fa-shopping-basket prefix"></i>
                     {% for ingredient in recipe.recipe_ingredients %}
                     <input id="recipe_ingredients" value="{{ ingredient }}" name="recipe_ingredients" type="text"
-                        class="validate" required>
+                        maxlength="100" class="validate" required>
                     {% endfor %}
                     <label for="recipe_ingredients">Recipe Ingredients</label>
                     <a class="waves-effect waves-light btn add-ingredient-button" id="add-ingredient">
@@ -103,7 +103,7 @@
                     <i class="fas fa-mortar-pestle prefix"></i>
                     {% for method in recipe.recipe_method %}
                     <input id="recipe_method" value="{{ method }}" name="recipe_method" type="text" class="validate"
-                        required>
+                        maxlength="500" required>
                     {% endfor %}
                     <label for="recipe_method">Recipe Method</label>
                     <a class="waves-effect waves-light btn add-method-button" id="add-method">
