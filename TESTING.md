@@ -21,7 +21,12 @@ By inputting my own CSS, the validator found no errors as shown below:
 
 The CSS of the project was also validated through its URI. By doing so, it did produce one error. This error though is due to Materialize and not an error from my own CSS.
 
+![Materialize-CSS Error](static/docs/testing/materialize-css-error.png)
+
 #### JavaScript
+
+[JShint](https://jshint.com/) was used to validate both my `scripts.js` and `topButton.js` files and came back with no errors.
+The `scripts.js` file needed two semi colons added and they were implemented.
 
 #### Python
 
