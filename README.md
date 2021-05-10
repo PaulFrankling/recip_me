@@ -377,5 +377,5 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 
 * Many thanks to my Mentor; Gurjot Singh, who helped greatly. He offered lots of advice, potential ideas and solutions.
 * Many thanks to Code Institute tutor support for their quick responses and guidance in solving any issues. A particular mention 
-to Igor Basuga, Kevin Loughrey and Tim Nelson. 
+to Igor Basuga, Johann Alberts, Kevin Loughrey and Tim Nelson.
 * Many thanks to the Slack community for helping me understand certain aspects of the project.
