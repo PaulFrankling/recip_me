@@ -130,13 +130,15 @@ The website was thoroughly tested and a detailed account of each tested feature 
 
 ##### Navigation bar
 
-* All navigation bar links were tested one by one and worked properly.
-* The Website logo correctly redirects the user to the Home page.
-* The Log out function works correctly and redirects the user to the Login page as expected.
+* All navigation bar links were tested one by one and worked properly. &check;
+* The website logo correctly redirects the user to the Home page. &check;
+* The log out function works correctly and redirects the user to the Login page as expected. &check;
+* The mobile side navigation bar redirects the user to each page correctly. &check;
 
 ##### Flash messages
 
 * All Flash messages appear after the appropriate action is taken:
+
   * User registers an account: "You have successfully registered with RecipMe!" &check;
   * User logs into their account: "Hello { username }!" &check;
   * User logs out of their account: "You have successfully logged out!" &check;
@@ -146,6 +148,13 @@ The website was thoroughly tested and a detailed account of each tested feature 
   * User successfully edits a recipe: "Recipe successfully updated!" &check;
   * User successfully deletes a recipe: "Recipe successfully deleted!" &check;
 
+##### Footer
+
+##### Home page
+
+* When the user is logged out, the 'Log In' and 'Register' CTA buttons both redirect the user to their respective pages &check;
+* When the user is logged in, the 'Profile' and 'Recipes' CTA buttons both redirect the user to their respective pages &check;
+* 
 
 
 
