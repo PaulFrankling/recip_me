@@ -121,21 +121,21 @@ The only thing brought to attention was that the `scripts.js` file needed two se
 
        ![Footer Test Image](static/docs/testing/ux-testing/footer-ux-test.png)
 
-#### Testing process
+### Testing Process
 
 The projects responsiveness was established through the framework [Materialize](https://materializecss.com/).
 The project was tested on numerous devices and presented no responsiveness issues.
 
 The website was thoroughly tested and a detailed account of each tested feature is documented below:
 
-##### Navigation bar
+#### Navigation Bar
 
 * All navigation bar links were tested one by one and worked properly. &check;
 * The website logo correctly redirects the user to the Home page. &check;
 * The log out function works correctly and redirects the user to the Login page as expected. &check;
 * The mobile side navigation bar redirects the user to each page correctly. &check;
 
-##### Flash messages
+#### Flash Messages
 
 * All Flash messages appear after the appropriate action is taken:
 
@@ -148,15 +148,22 @@ The website was thoroughly tested and a detailed account of each tested feature 
   * User successfully edits a recipe: "Recipe successfully updated!" &check;
   * User successfully deletes a recipe: "Recipe successfully deleted!" &check;
 
-##### Footer
+#### Footer
 
-##### Home page
+* If the user clicks on any of the social media links in the footer, they are taken to that respective social media site on a new tab whilst retaining RecipMe on the previous tab. &check;
+* The circular background of the social media icons turn `#033F63` when they are hovered over. &check;
+
+#### Back to Top Button
+
+* The button takes the user to the top of the page and fades in and out when scrolling up and down the screen. &check;
+
+#### Home Page
 
 * When the user is logged out, the 'Log In' and 'Register' CTA buttons both redirect the user to their respective pages &check;
 * When the user is logged in, the 'Profile' and 'Recipes' CTA buttons both redirect the user to their respective pages &check;
-* 
+* Each category card on the Home page takes the user to the correct respective category. &check;
 
+#### Category Page
 
-
-
-
+* When the user selects any of the recipe categories on the Home page, the correct recipes belonging to that category show on its particular category page. &check;
+* Any added recipes appear on that category page &check;
