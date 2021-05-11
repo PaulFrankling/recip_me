@@ -121,7 +121,25 @@ The only thing brought to my attention was that the `scripts.js` file needed two
 
        ![Footer Test Image](static/docs/testing/ux-testing/footer-ux-test.png)
 
-### Testing Process
+### Testing Process:
+
+Family members and Friends were asked to test the website and were able to lend me their devices to let me test the website too.
+
+The website was tested on the following devices:
+
+* ASUS ZENBOOK UX434
+* iPhone 7
+* iPhone X
+* iPad
+* Huawei P Smart
+* Acer Laptop
+
+The website was tested on the following web browsers:
+
+* Safari
+* Google Chrome
+* Firefox
+* Microsoft Edge
 
 The projects responsiveness was established through the framework [Materialize](https://materializecss.com/).
 The project was tested on numerous devices and presented no responsiveness issues.
@@ -245,5 +263,48 @@ which helps in preventing someone from brute forcing the account.
 * If the user tries to access the Add Recipe page, Edit Recipe page, or another users Profile, they are redirected to a 404 Error page. (`404.html`).
 * If the user presses back when they have logged in, they are redirected to their Profile page. This stops the user from logging in twice.
 
-### Existing Bugs
+### Existing Bugs:
 
+* If the user inputs the wrong URL in the Food Image input field, then this happens to the image card on the far right of the picture below:
+
+  ![Image Card Bug](static/docs/testing/bugs/image-bug.png)
+
+  The `alt` tag fortunately gives a brief description of what the image is. However the image card title doesn't cover the full length of the card. 
+This is why I didn't give the Food Image input field the `required` attribute. Instead the user can use the [default image](https://github.com/PaulFrankling/recip_me/blob/master/static/images/recipe-alt.png)
+which will display when nothing is inputted.
+
+  > If the user has difficulty with inputting the image URL they want to use, they just need to right click on the image on the internet. They then need to select 'Copy image address' and paste it into the Food Image input field on the Add Recipe page or Edit Recipe page.
+
+* The next bug is on the Add Recipe page:
+
+  ![Add Recipe Page Bug](static/docs/testing/bugs/add-recipe-bug.png)
+
+  When the user needs to add more input fields for more ingredients or method steps, they have to go back up the screen to select the 'Add Item' button and then back down the screen to add an item to it.
+  This isn't a good UX feature and appears an inconvenience to the user.
+
+* The Edit Recipe page also has a bug in which the user can't remove an item from the ingredients or method steps prepopulated input fields.
+
+  ![Edit Recipe Page Bug](static/docs/testing/bugs/edit-recipe-bug.png)
+
+  As shown in the image above, the red line appears showing the user must input something in an existing input field.
+  The user can edit the prepopulated input fields but just can't remove them.
+
+#### Gitpod Bugs/Errors
+
+* Every HTML page produces the same warning except for the `base.html` page.
+
+  ![Doctype Warning](static/docs/testing/bugs/doctype-warning.png)
+
+  This is due to the use of Jinja and can't be altered.
+
+* The `env.py` file produces this error:
+
+  ![env.py Error](static/docs/testing/bugs/env-py-error.png)
+
+  This error is due to there being a very long required string that can't be split effectively as there is no space to split it.
+
+* The `app.py` file produces this error:
+
+  ![app.py Error](static/docs/testing/bugs/app-py-error.png)
+
+  This is just because the `env.py` file sets environment variables and isn't used beyond that. 

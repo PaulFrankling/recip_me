@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 3
 
-![RecipMe Mockup](static/docs/recipme-mockup.png)
+![RecipMe Mockup](static/docs/misc/recipme-mockup.png)
 
 [Click here to view my website](https://recipme-project.herokuapp.com/)
 
@@ -42,7 +42,7 @@ an account to view recipes and can use the search engine on the Recipes page to 
 
 ### Colour Scheme
 
-![Colour-scheme](static/docs/colour-scheme.png)
+![Colour-scheme](static/docs/misc/colour-scheme.png)
 
 The colour scheme used for this project was generated on [Coolor](https://coolors.co/ffffff-e71d36-033f63-888da7).
 
@@ -213,19 +213,19 @@ The Error pages are created to help redirect the user when the page is not found
 * I changed the background-image of the website quite far into the project. The background image kept zooming in on different pages, mainly when the page had a lot more content. 
 It was personal preference to change the background and I changed it to the colour of Cool Grey `#888DA7` as the existing colours used on the project were matched to Cool Grey on [Coolor](https://coolors.co/ffffff-e71d36-033f63-888da7).
 
-    ![Background image change](static/docs/style-change.png)
+    ![Background image change](static/docs/misc/style-change.png)
 
 * Another issue, the image card titles were uneven when first applying them on the site.
 
-    ![Before Truncate fix](static/docs/bug-before-truncate.png)
+    ![Before Truncate fix](static/docs/misc/bug-before-truncate.png)
 
-    On [Materialize](https://materializecss.com/helpers.html) I found that if you used the `class="truncate"` on the image card title, it would make all the titles equal height. It produces an ellipsis on longer recipe names when the device screen is decreased.
+    On [Materialize](https://materializecss.com/misc/helpers.html) I found that if you used the `class="truncate"` on the image card title, it would make all the titles equal height. It produces an ellipsis on longer recipe names when the device screen is decreased.
 
-    ![After Truncate fix](static/docs/bug-fix-truncate.png)
+    ![After Truncate fix](static/docs/misc/bug-fix-truncate.png)
 
 * Lastly, I had an issue trying to show an 'Add Recipe' button on the Profile page, if the user hadn't added any recipes. Issue shown below:
 
-    ![Profile page fix](static/docs/profile-page-fix.png)
+    ![Profile page fix](static/docs/misc/profile-page-fix.png)
 
     After trying to fix the issue for a while, I got there in the end by adding `{% for recipe in recipes if session.user|lower == recipe.added_by|lower %}` above the recipes and adding the button below the `{% else %}` statement. 
 
