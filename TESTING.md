@@ -143,8 +143,20 @@ The website was tested on the following web browsers:
 * Firefox
 * Microsoft Edge
 
+#### Responsiveness
+
 The projects responsiveness was established through the framework [Materialize](https://materializecss.com/).
 The project was tested on numerous devices and presented no responsiveness issues.
+
+#### CRUD Functionality
+
+CRUD Functionality was tested by creating, reading, updating and deleting recipes.
+
+> All CRUD Functionality worked as expected and produced no problems.
+
+Two more recipes were added to the site in the process of testing.
+
+### Testing all the pages:
 
 The website was thoroughly tested and a detailed account of each tested feature is documented below:
 
@@ -244,7 +256,7 @@ It shows the Username of each user but hashes the Password with the use of Werkz
 
 * All recipe cards correctly link to their respective `show_recipe.html` page. &check;
 * If the user isn't logged in or the recipe doesn't belong to them, it does not allow them to edit or delete it. &check;
-* All recipes are layed out correctly. &check;
+* All recipes are layed out correctly and all information can easily be read by the user. &check;
 * If the user who added the recipe doesn't input an Image URL, the recipe correctly shows the [default image](https://github.com/PaulFrankling/recip_me/blob/master/static/images/recipe-alt.png) set. &check;
 * The particular recipe selected shows the correct user who added it towards the bottom of the screen. &check;
 * If the user is logged in and the recipe belongs to them, it shows the 'Edit Recipe' and 'Delete Recipe' buttons. &check;
@@ -258,7 +270,7 @@ It shows the Username of each user but hashes the Password with the use of Werkz
 
 * Both links back to the Home page work. &check;
 
-### Defensive Programming
+### Defensive Programming:
 
 * When the user tries to log into their account and inputs the wrong information, it tells them: "Incorrect Username and/or Password!" 
 which helps in preventing someone from brute forcing the account.
@@ -309,4 +321,4 @@ which will display when nothing is inputted.
 
   ![app.py Error](static/docs/testing/bugs/app-py-error.png)
 
-  This is just because the `env.py` file sets environment variables and isn't used beyond that. 
+  This is just because the `env.py` file sets environment variables and isn't used beyond that.

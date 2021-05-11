@@ -360,6 +360,11 @@ All recipes were taken from [Allrecipes](https://www.allrecipes.com/)
 * [Strawberry Blueberry Smoothies](https://www.allrecipes.com/recipe/223140/strawberry-blueberry-smoothies/)
 * [Ultimate Fruit Smoothie](https://www.allrecipes.com/recipe/236204/ultimate-fruit-smoothie/)
 
+Added recipes in the testing process:
+
+* [Carrot and Cilantro Soup](https://www.allrecipes.com/recipe/50973/carrot-and-cilantro-soup/)
+* [Summer Sweet Smoothies](https://www.allrecipes.com/recipe/215581/summer-sweet-smoothies/)
+
 > This project was created for educational purposes only.
 
 ### Media Used
