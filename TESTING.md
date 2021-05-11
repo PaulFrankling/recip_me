@@ -133,6 +133,8 @@ The website was thoroughly tested and a detailed account of each tested feature 
 * All navigation bar links were tested one by one and worked properly. &check;
 * The website logo correctly redirects the user to the Home page. &check;
 * The log out function works correctly and redirects the user to the Login page as expected. &check;
+* The navigation bar shows the 'Log In' page and 'Register' page links when the user is logged out. &check;
+* The navigation bar shows the 'Add Recipe' page, 'Profile' page links and 'Log Out' function when the user is logged in. &check;
 * The mobile side navigation bar redirects the user to each page correctly. &check;
 
 #### Flash Messages
@@ -182,7 +184,7 @@ The Recipes page has a search engine and as mentioned in the [README.md](https:/
 
 * Input fields correctly notifies the user if the Username or Password is too short or contains a symbol. &check;
 * Login page link works correctly. &check;
-* When user registers their account, it adds their credentials to [MongoDB](https://cloud.mongodb.com/). 
+* When the user registers their account, it adds their credentials to [MongoDB](https://cloud.mongodb.com/). 
 It shows the Username of each user but hashes the Password with the use of Werkzeug. &check;
 * Once registered, it correctly takes the user to their Profile page. &check;
 
@@ -201,6 +203,32 @@ It shows the Username of each user but hashes the Password with the use of Werkz
 
 #### Add Recipe Page
 
+* All input fields work correctly, ensuring each one is filled in with correct amount of characters. &check;
+* The Food Image input field correctly doesn't require input. &check;
+* The select options work correctly. &check;
+* Both ingredients and method fields can be added and removed appropriately. &check;
+* 'Add Recipe' submit button works correctly. &check;
+* When the user adds a recipe it adds all the information in the correct format. i.e. The ingredients are presented in bullet points and the method steps are ordered. &check;
+* The recipe is successfully added to [MongoDB](https://cloud.mongodb.com/). &check;
+
 #### Edit Recipe Page
 
+* All input fields are prepopulated with the chosen recipes existing information. &check;
+* All input fields and select options can be edited. &check;
+* All validation and requirements work as expected. &check;
+* 'Edit Recipe' submit button works correctly. &check;
+* Cancel button works as expected. &check;
+* Recipe is edited correctly on submission in [MongoDB](https://cloud.mongodb.com/). &check;
+
 #### Show Recipe Page
+
+* All recipe cards correctly link to their respective `show_recipe.html` page. &check;
+* If the user isn't logged in or the recipe doesn't belong to them, it does not allow them to edit or delete it. &check;
+* All recipes are layed out correctly. &check;
+* If the user who added the recipe doesn't input an Image URL, the recipe correctly shows the [default image](https://github.com/PaulFrankling/recip_me/blob/master/static/images/recipe-alt.png) set. &check;
+* If the user is logged in and the recipe belongs to them, it shows the 'Edit Recipe' and 'Delete Recipe' buttons. &check;
+* The 'Edit Recipe' button takes the user to the Edit Recipe page. &check;
+* The 'Delete Recipe' button opens up a modal to either confirm deletion or cancel action. &check;
+* The modal can be closed by clicking outside of it or selecting 'No'. &check;
+* When selecting 'Yes' on the modal, it successfully deletes the recipe and takes the user back to the Recipes page. &check;
+* The recipe is also deleted in [MongoDB](https://cloud.mongodb.com/). &check;
