@@ -167,3 +167,40 @@ The website was thoroughly tested and a detailed account of each tested feature 
 
 * When the user selects any of the recipe categories on the Home page, the correct recipes belonging to that category show on its particular category page. &check;
 * Any added recipes appear on its particular category page. &check;
+
+#### Recipes Page
+
+The Recipes page has a search engine and as mentioned in the [README.md](https://github.com/PaulFrankling/recip_me#readme), the indexes created with [MongoDB](https://cloud.mongodb.com/) were category_name, recipe_name and recipe_ingredients.
+
+* All categories were searched and all came back with the correct results. &check;
+* Numerous recipes were searched and the appropriate results came back. &check;
+* Searched 10 different ingredients which and the search engine returned the correct recipes with those ingredients. &check;
+* If the search engine can't find the requested search query, it correctly returns a "No Results Found" message. &check;
+* Reset button works correctly by resetting the search query. &check;
+
+#### Register Page
+
+* Input fields correctly notifies the user if the Username or Password is too short or contains a symbol. &check;
+* Login page link works correctly. &check;
+* When user registers their account, it adds their credentials to [MongoDB](https://cloud.mongodb.com/). 
+It shows the Username of each user but hashes the Password with the use of Werkzeug. &check;
+* Once registered, it correctly takes the user to their Profile page. &check;
+
+#### Login Page
+
+* Input fields works correctly by resetting the page when the user incorrectly inputs the wrong login details. &check;
+* When the user logs in, it correctly takes the user to their Profile page. &check;
+* Register page link works correctly. &check;
+
+#### Profile Page
+
+* The Profile page correctly shows the logged in accounts Username in the page title. &check;
+* If the user has just registered or hasn't added any recipes, the page correctly shows an 'Add Recipe' CTA button. &check;
+* When the user adds a recipe, it removes the 'Add Recipe' CTA button as expected. &check;
+* The Profile page just the recipes the user has added and no other users. &check;
+
+#### Add Recipe Page
+
+#### Edit Recipe Page
+
+#### Show Recipe Page
