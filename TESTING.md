@@ -226,9 +226,21 @@ It shows the Username of each user but hashes the Password with the use of Werkz
 * If the user isn't logged in or the recipe doesn't belong to them, it does not allow them to edit or delete it. &check;
 * All recipes are layed out correctly. &check;
 * If the user who added the recipe doesn't input an Image URL, the recipe correctly shows the [default image](https://github.com/PaulFrankling/recip_me/blob/master/static/images/recipe-alt.png) set. &check;
+* The particular recipe selected shows the correct user who added it towards the bottom of the screen. &check;
 * If the user is logged in and the recipe belongs to them, it shows the 'Edit Recipe' and 'Delete Recipe' buttons. &check;
 * The 'Edit Recipe' button takes the user to the Edit Recipe page. &check;
 * The 'Delete Recipe' button opens up a modal to either confirm deletion or cancel action. &check;
 * The modal can be closed by clicking outside of it or selecting 'No'. &check;
 * When selecting 'Yes' on the modal, it successfully deletes the recipe and takes the user back to the Recipes page. &check;
 * The recipe is also deleted in [MongoDB](https://cloud.mongodb.com/). &check;
+
+#### Error Pages
+
+* Both links back to the Home page work. &check;
+
+### Defensive Programming
+
+* When the user tries to log into their account and inputs the wrong information, it tells them: "Incorrect Username and/or Password!" 
+which helps in preventing someone from brute forcing the account.
+* If the user tries to access the Add Recipe page, Edit Recipe page, or another users Profile, they are redirected to a 404 Error page. (`404.html`).
+* If the user presses back when they have logged in, they are redirected to their Profile page. This stops the user from logging in twice.
