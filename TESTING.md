@@ -30,7 +30,9 @@ The only thing brought to my attention was that the `scripts.js` file needed two
 
 #### Python
 
-![Pep8 Validation](static/docs/testing/validation/pep8-results.png)
+[PEP8 online](http://pep8online.com/) was used to make sure my `app.py` file was PEP8 compliant and the website received the following result:
+
+![PEP8 Validation](static/docs/testing/validation/pep8-results.png)
 
 ### Testing of User Stories in UX section of [README.md](https://github.com/PaulFrankling/recip_me#readme):
 
