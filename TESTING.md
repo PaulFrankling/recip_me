@@ -26,7 +26,7 @@ The CSS of the project was also validated through its URI. By doing so, it did p
 #### JavaScript
 
 [JShint](https://jshint.com/) was used to validate both my JavaScript files; `scripts.js` and `topButton.js`. Both JavaScript files came back with no errors.
-The only thing brought to attention was that the `scripts.js` file needed two semi colons added and they have been implemented.
+The only thing brought to my attention was that the `scripts.js` file needed two semi colons added and they have been implemented.
 
 #### Python
 
@@ -144,8 +144,8 @@ The website was thoroughly tested and a detailed account of each tested feature 
   * User registers an account: "You have successfully registered with RecipMe!". &check;
   * User logs into their account: "Hello { username }!". &check;
   * User logs out of their account: "You have successfully logged out!". &check;
-  * User inputs an username that already exists: "This username already exists!". &check;
-  * User incorrectly inputs the wrong username or password when logging in: "Incorrect Username and/or Password!". &check;
+  * User inputs a username that already exists: "This username already exists!". &check;
+  * User inputs the wrong username or password when logging in: "Incorrect Username and/or Password!". &check;
   * User successfully adds a recipe: "Recipe successfully added!". &check;
   * User successfully edits a recipe: "Recipe successfully updated!". &check;
   * User successfully deletes a recipe: "Recipe successfully deleted!". &check;
@@ -176,13 +176,13 @@ The Recipes page has a search engine and as mentioned in the [README.md](https:/
 
 * All categories were searched and all came back with the correct results. &check;
 * Numerous recipes were searched and the appropriate results came back. &check;
-* Searched 10 different ingredients which and the search engine returned the correct recipes with those ingredients. &check;
+* Searched 10 different ingredients and the search engine returned the correct recipes with those ingredients. &check;
 * If the search engine can't find the requested search query, it correctly returns a "No Results Found" message. &check;
 * Reset button works correctly by resetting the search query. &check;
 
 #### Register Page
 
-* Input fields correctly notifies the user if the Username or Password is too short or contains a symbol. &check;
+* Input fields correctly notify the user if the Username or Password is too short or contains a symbol. &check;
 * Login page link works correctly. &check;
 * When the user registers their account, it adds their credentials to [MongoDB](https://cloud.mongodb.com/). 
 It shows the Username of each user but hashes the Password with the use of Werkzeug. &check;
@@ -190,7 +190,7 @@ It shows the Username of each user but hashes the Password with the use of Werkz
 
 #### Login Page
 
-* Input fields works correctly by resetting the page when the user incorrectly inputs the wrong login details. &check;
+* Input fields work correctly by resetting the page when the user inputs the wrong login details. &check;
 * When the user logs in, it correctly takes the user to their Profile page. &check;
 * Register page link works correctly. &check;
 
@@ -199,7 +199,7 @@ It shows the Username of each user but hashes the Password with the use of Werkz
 * The Profile page correctly shows the logged in accounts Username in the page title. &check;
 * If the user has just registered or hasn't added any recipes, the page correctly shows an 'Add Recipe' CTA button. &check;
 * When the user adds a recipe, it removes the 'Add Recipe' CTA button as expected. &check;
-* The Profile page just the recipes the user has added and no other users. &check;
+* The Profile page only displays the recipes the user has added and no other users. &check;
 
 #### Add Recipe Page
 
@@ -244,3 +244,6 @@ It shows the Username of each user but hashes the Password with the use of Werkz
 which helps in preventing someone from brute forcing the account.
 * If the user tries to access the Add Recipe page, Edit Recipe page, or another users Profile, they are redirected to a 404 Error page. (`404.html`).
 * If the user presses back when they have logged in, they are redirected to their Profile page. This stops the user from logging in twice.
+
+### Existing Bugs
+
