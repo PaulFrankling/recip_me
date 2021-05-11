@@ -35,10 +35,11 @@ nav i {
 }
 
 /* Sidenav heading */
-.sidenav h4 {
+.sidenav li h4 a {
     color: #E71D36;
     font-family: Dancing Script, Lato, Sans-serif;
     font-weight: 700;
+    font-size: 30px;
     margin-left: 30px;
 }
 

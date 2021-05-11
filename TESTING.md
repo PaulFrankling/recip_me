@@ -139,14 +139,14 @@ The website was thoroughly tested and a detailed account of each tested feature 
 
 * All Flash messages appear after the appropriate action is taken:
 
-  * User registers an account: "You have successfully registered with RecipMe!" &check;
-  * User logs into their account: "Hello { username }!" &check;
-  * User logs out of their account: "You have successfully logged out!" &check;
-  * User inputs an username that already exists: "This username already exists!" &check;
-  * User incorrectly inputs the wrong username or password when logging in: "Incorrect Username and/or Password!" &check;
-  * User successfully adds a recipe: "Recipe successfully added!" &check;
-  * User successfully edits a recipe: "Recipe successfully updated!" &check;
-  * User successfully deletes a recipe: "Recipe successfully deleted!" &check;
+  * User registers an account: "You have successfully registered with RecipMe!". &check;
+  * User logs into their account: "Hello { username }!". &check;
+  * User logs out of their account: "You have successfully logged out!". &check;
+  * User inputs an username that already exists: "This username already exists!". &check;
+  * User incorrectly inputs the wrong username or password when logging in: "Incorrect Username and/or Password!". &check;
+  * User successfully adds a recipe: "Recipe successfully added!". &check;
+  * User successfully edits a recipe: "Recipe successfully updated!". &check;
+  * User successfully deletes a recipe: "Recipe successfully deleted!". &check;
 
 #### Footer
 
@@ -159,11 +159,11 @@ The website was thoroughly tested and a detailed account of each tested feature 
 
 #### Home Page
 
-* When the user is logged out, the 'Log In' and 'Register' CTA buttons both redirect the user to their respective pages &check;
-* When the user is logged in, the 'Profile' and 'Recipes' CTA buttons both redirect the user to their respective pages &check;
+* When the user is logged out, the 'Log In' and 'Register' CTA buttons both redirect the user to their respective pages. &check;
+* When the user is logged in, the 'Profile' and 'Recipes' CTA buttons both redirect the user to their respective pages. &check;
 * Each category card on the Home page takes the user to the correct respective category. &check;
 
 #### Category Page
 
 * When the user selects any of the recipe categories on the Home page, the correct recipes belonging to that category show on its particular category page. &check;
-* Any added recipes appear on that category page &check;
+* Any added recipes appear on its particular category page. &check;
