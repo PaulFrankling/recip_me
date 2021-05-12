@@ -303,6 +303,12 @@ which will display when nothing is inputted.
   As shown in the image above, the red line appears showing the user must input something in an existing input field.
   The user can edit the prepopulated input fields but just can't remove them.
 
+* On the iPhone 7, the select fields on the Add Recipe and Edit Recipe forms don't select the intended option all the time.
+
+  ![Mobile Select Field Bug](static/docs/testing/bugs/mobile-bug.png)
+
+  It can prove irritating for the user when the option they've selected doesn't appear and another option is selected.
+
 #### Gitpod Bugs/Errors
 
 * Every HTML page produces the same warning except for the `base.html` page.
