@@ -25,12 +25,12 @@ The CSS of the project was also validated through its URI. By doing so, it did p
 
 #### JavaScript
 
-[JShint](https://jshint.com/) was used to validate both my JavaScript files; `scripts.js` and `topButton.js`. Both JavaScript files came back with no errors.
+[JShint](https://jshint.com/) was used to validate both my JavaScript files; `scripts.js` and `button.js`. Both JavaScript files came back with no errors.
 The only thing brought to my attention was that the `scripts.js` file needed two semi colons added and they have been implemented.
 
 #### Python
 
-[PEP8 online](http://pep8online.com/) was used to make sure my `app.py` file was PEP8 compliant and the website received the following result:
+[PEP8 online](http://pep8online.com/) was used to make sure my `app.py` file was PEP8 compliant and the file received the following result:
 
 ![PEP8 Validation](static/docs/testing/validation/pep8-results.png)
 
