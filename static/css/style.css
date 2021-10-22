@@ -227,13 +227,22 @@ nav i {
     font-weight: 700 !important;
 }
 
-/* Image card */
+/* Image card for show_recipe page */
 /* Credit: https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
     - helped me with setting my images up on their respective cards. */
+.show-recipe-image {
+    float: left;
+    width: 350px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+/* Image cards for the rest of the app */
 .food-image {
     float: left;
     width:  350px;
-    height: 250px;
+    height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
 }

@@ -25,9 +25,9 @@
                 <div class="card">
                     <div class="card-image">
                         {% if recipe.recipe_image %}
-                        <img class="food-image recipe-border" src="{{ recipe.recipe_image }}" alt="Recipe image">
+                        <img class="show-recipe-image recipe-border" src="{{ recipe.recipe_image }}" alt="Recipe image">
                         {% else %}
-                        <img class="food-image recipe-border"
+                        <img class="show-recipe-image recipe-border"
                             src="{{ url_for('static', filename='images/recipe-alt.png') }}" alt="No image available">
                         {% endif %}
                     </div>

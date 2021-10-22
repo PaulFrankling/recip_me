@@ -20,7 +20,7 @@
     <div class="container">
         <div class="row">
             {% for recipe in recipes if session.user|lower == recipe.added_by|lower %}
-            <div class="col s12 m4">
+            <div class="col s12 m3">
                 <div class="card">
                     <div class="card-image waves-effect waves-light">
                         {% if recipe.recipe_image %}
